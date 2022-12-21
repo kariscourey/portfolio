@@ -1,0 +1,13 @@
+services:
+  ghi:
+    image: node:lts-bullseye
+    command: /bin/bash run.sh
+    working_dir: /app
+    volumes:
+        - ./tokyo:/app
+    ports:
+        - "3000:3000"
+    environment:
+        NODE_ENV: development
+        NODE_OPTIONS: "--openssl-legacy-provider"
+        HOST: "0.0.0.0"
