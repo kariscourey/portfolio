@@ -19,8 +19,8 @@ const Home = () => {
           <div className="details">
             <h3 className="name">Karis Courey</h3>
             <p className="job">
-              Creative Photographer based in New York and happy to travel all
-              over Europe to capture photos.
+              Software engineer with a great love for the outdoors and an eagerness to better the lives of
+              as many people as possible with sophisticated solutions.
             </p>
             {/* END JOB */}
             <Social />
