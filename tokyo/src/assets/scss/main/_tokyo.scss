@@ -94,7 +94,7 @@ h6 {
   font-weight: 500;
   line-height: 1.2;
   font-family: "Montserrat";
-  color: #000;
+  color: #ff9900;
 }
 
 h1 {
@@ -262,7 +262,7 @@ h6 {
   align-items: center;
   z-index: 10;
   padding: 0px 100px;
-  background-color: #fff;
+  background-color: #ffe2b7;
 }
 .tokyo_tm_all_wrap .leftpart_inner {
   width: 100%;
@@ -626,7 +626,7 @@ h6 {
 }
 .tokyo_tm_button a:hover,
 .ib-button:hover {
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .tokyo_tm_modalbox_about .close .svg {
@@ -1001,7 +1001,7 @@ ul.react-tabs__tab-list {
 }
 
 /*---------------------------------------------------*/
-/*	07) TOKYO NEWS 
+/*	07) TOKYO NEWS
 /*---------------------------------------------------*/
 
 .tokyo_tm_news {
@@ -1097,7 +1097,7 @@ ul.react-tabs__tab-list {
   text-decoration: none;
   display: inline-block;
   overflow: hidden;
-  color: #000;
+  color: #ff9900;
   padding-right: 32px;
   position: relative;
   text-transform: uppercase;
@@ -1623,7 +1623,7 @@ body.modal {
     align-items: center;
     position: fixed;
     width: 100%;
-    background: #dedede;
+    background: #ffe2b7;
     height: 50px;
     bottom: 0;
     left: 0;
@@ -1799,7 +1799,7 @@ body.modal {
 }
 
 /*---------------------------------------------------*/
-/*	11) TOKYO 404 
+/*	11) TOKYO 404
 /*---------------------------------------------------*/
 
 .tokyo_tm_section .container {
@@ -2147,7 +2147,7 @@ body.modal {
   -webkit-transform: translateY(0);
   transform: translateY(0);
 }
-// swicher
+// switcher
 .theme-switcher-label {
   cursor: pointer;
   position: fixed;
@@ -2160,7 +2160,7 @@ body.modal {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: #ffe2b7;
 
   @media (max-width: 1199px) {
     width: 45px;
@@ -2208,7 +2208,7 @@ body.modal {
     color: #000;
   }
   .dark-text {
-    color: #fff;
+    color: #ff9900;
   }
   &.active {
     background-color: rgba(255, 255, 255, 0.2);
