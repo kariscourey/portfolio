@@ -4,16 +4,13 @@ const SocialShare = [
   {
     iconName: "linkedin",
     link: "https://www.linkedin.com/in/kariscourey",
+  },  {
+    iconName: "github",
+    link: "https://www.github.com/kariscourey",
   },
-  { iconName: "twitter", link: "https://twitter.com/" },
   {
-    iconName: "instagram",
-    link: "https://www.instagram.com/",
-  },
-  { iconName: "dribbble", link: "https://dribbble.com/" },
-  {
-    iconName: "tik-tok",
-    link: "https://www.tiktok.com/",
+    iconName: "gitlab",
+    link: "https://www.gitlab.com/kariscourey",
   },
 ];
 const Social = () => {
