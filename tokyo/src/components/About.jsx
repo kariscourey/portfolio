@@ -77,15 +77,13 @@ const About = () => {
             <div
               className="description_wrap scrollable"
               data-aos="fade-right"
-              data-aos-duration="1200"
-            >
+              data-aos-duration="1200">
               <div className="my_box">
                 <div className="left">
                   <div className="about_title">
-                    <h3>Preferred Languages</h3>
+                    <h3>Preferred languages</h3>
                   </div>
                   {/* END ABOUT TITLE */}
-
                   <div className="tokyo_progress">
                     <div className="progress_inner" data-value="95">
                       <span>
@@ -148,14 +146,22 @@ const About = () => {
                         </div>
                       </div>
                     </div>
+
+                  <p>
+                    Percentage represents proficiency.
+                  </p>
+
                   </div>
                   {/* END PROGRESS */}
+
+
+
                 </div>
                 {/* END LEFT */}
 
                 <div className="right">
                   <div className="about_title">
-                    <h3>Other Languages</h3>
+                    <h3>Other languages</h3>
                   </div>
                   {/* END TITLE */}
                   <div className="tokyo_progress">
@@ -254,6 +260,7 @@ const About = () => {
                         </div>
                       </div>
                     </div>
+
                   </div>
                   {/* EDN TOKYO PROGRESS */}
                 </div>
@@ -263,25 +270,25 @@ const About = () => {
 
               <div className="counter">
                 <div className="about_title">
-                  <h3>Fun Facts</h3>
+                  <h3>Fun facts</h3>
                 </div>
                 <ul>
                   <li>
                     <div className="list_inner">
                       <h3>86+</h3>
-                      <span>Projects Completed</span>
+                      <span>Projects completed</span>
                     </div>
                   </li>
                   <li>
                     <div className="list_inner">
                       <h3>1.5K+</h3>
-                      <span>Hours Coding</span>
+                      <span>Hours coding</span>
                     </div>
                   </li>
                   <li>
                     <div className="list_inner">
-                      <h3>9K+</h3>
-                      <span>Lines of Code</span>
+                      <h3>12K+</h3>
+                      <span>Hours engineering</span>
                     </div>
                   </li>
                 </ul>
@@ -291,7 +298,7 @@ const About = () => {
 
               <div className="partners">
                 <div className="about_title">
-                  <h3>Our Partners</h3>
+                  <h3>Tools</h3>
                 </div>
                 <Brand />
               </div>

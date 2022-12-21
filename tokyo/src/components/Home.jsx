@@ -19,8 +19,8 @@ const Home = () => {
           <div className="details">
             <h3 className="name">Karis Courey</h3>
             <p className="job">
-              Software engineer with a great love for the outdoors and an eagerness to better the lives of
-              as many people as possible with sophisticated solutions.
+              Software engineer who loves the outdoors and is intent on bettering the lives of
+              as many people as possible.
             </p>
             {/* END JOB */}
             <Social />
