@@ -383,6 +383,11 @@ h6 {
   cursor: pointer !important;
 }
 
+.slick-prev:before,
+.slick-next:before {
+  color: #ffe2b7;
+}
+
 @keyframes customOne {
   from {
     opacity: 0;
@@ -802,6 +807,8 @@ h6 {
   margin: 0px;
   list-style-type: none;
   padding-top: 15px;
+  width: 93.25%;
+  margin-left: 3.5%;
 }
 .tokyo_tm_modalbox_about .partners ul {
   .slick-initialized .slick-slide {

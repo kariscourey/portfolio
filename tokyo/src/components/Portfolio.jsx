@@ -40,42 +40,18 @@ const Portfolio = () => {
             <Tabs>
               <TabList>
                 <Tab>All</Tab>
-                {/* All */}
-                <Tab>Vimeo</Tab>
-                {/* For Vimeo */}
                 <Tab>Youtube</Tab>
-                {/* For Youtube */}
-                <Tab>Photography</Tab>
-                {/* For Images */}
-                <Tab>Details</Tab>
-                {/* For Popup Details */}
+                <Tab>Key Projects</Tab>
               </TabList>
               {/* END TABLIST */}
 
               <div className="list_wrapper">
                 <TabPanel>
                   <ul className="portfolio_list">
-                    <li data-aos="fade-right" data-aos-duration="1200">
-                      <div className="inner">
-                        <div className="entry tokyo_tm_portfolio_animation_wrap">
-                          <img
-                            src="assets/img/portfolio/5.jpg"
-                            alt="Vimeo"
-                            onClick={() => setOpen2(true)}
-                          />
-                        </div>
-                        <div className="mobile_title">
-                          <h3>Teresa Butler</h3>
-                          <span>Vimeo</span>
-                        </div>
-                      </div>
-                    </li>
-                    {/* END VIMEO */}
                     <li
                       data-aos="fade-right"
                       data-aos-duration="1200"
-                      data-aos-delay="100"
-                    >
+                      data-aos-delay="100">
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <img
@@ -91,50 +67,6 @@ const Portfolio = () => {
                       </div>
                     </li>
                     {/* END YOUTUBE */}
-                    <SRLWrapper>
-                      <li
-                        data-aos="fade-right"
-                        data-aos-duration="1200"
-                        data-aos-delay="200"
-                      >
-                        <div className="inner">
-                          <div className="entry tokyo_tm_portfolio_animation_wrap">
-                            <a href="assets/img/portfolio/4.jpg">
-                              <img
-                                src="assets/img/portfolio/4.jpg"
-                                alt="Childhood"
-                              />
-                            </a>
-                          </div>
-                          <div className="mobile_title">
-                            <h3>Derek Smith</h3>
-                            <span>Photo shoot</span>
-                          </div>
-                        </div>
-                      </li>
-                      {/* END SHOT */}
-                      <li
-                        data-aos="fade-right"
-                        data-aos-duration="1200"
-                        data-aos-delay="300"
-                      >
-                        <div className="inner">
-                          <div className="entry tokyo_tm_portfolio_animation_wrap">
-                            <a href="assets/img/portfolio/3.jpg">
-                              <img
-                                src="assets/img/portfolio/3.jpg"
-                                alt="Besh Award"
-                              />
-                            </a>
-                          </div>
-                          <div className="mobile_title">
-                            <h3>Gloria Genkins</h3>
-                            <span>Photo shoot</span>
-                          </div>
-                        </div>
-                      </li>
-                      {/* END SHOT */}
-                    </SRLWrapper>
                     <li
                       data-aos="fade-right"
                       data-aos-duration="1200"
@@ -144,13 +76,13 @@ const Portfolio = () => {
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <img
                             src="assets/img/portfolio/6.jpg"
-                            alt="Details"
+                            alt="Key Projects"
                             onClick={toggleModalThree}
                           />
                         </div>
                         <div className="mobile_title">
                           <h3>Selena Gomez</h3>
-                          <span> Details</span>
+                          <span> Key Projects</span>
                         </div>
                       </div>
                     </li>
@@ -164,13 +96,13 @@ const Portfolio = () => {
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <img
                             src="assets/img/portfolio/7.jpg"
-                            alt="Details"
+                            alt="Key Projects"
                             onClick={toggleModalFour}
                           />
                         </div>
                         <div className="mobile_title">
                           <h3>Ave Simone</h3>
-                          <span> Details</span>
+                          <span> Key Projects</span>
                         </div>
                       </div>
                     </li>
@@ -179,29 +111,6 @@ const Portfolio = () => {
                   {/* END PORTFOLIO LIST */}
                 </TabPanel>
                 {/* END ALL All */}
-
-                <TabPanel>
-                  <ul className="portfolio_list">
-                    <li data-aos="fade-right" data-aos-duration="1200">
-                      <div className="inner">
-                        <div className="entry tokyo_tm_portfolio_animation_wrap">
-                          <img
-                            src="assets/img/portfolio/5.jpg"
-                            alt="Vimeo"
-                            onClick={() => setOpen2(true)}
-                          />
-                        </div>
-                        <div className="mobile_title">
-                          <h3>Teresa Butler</h3>
-                          <span>Vimeo</span>
-                        </div>
-                      </div>
-                    </li>
-                    {/* END VIMEO */}
-                  </ul>
-                  {/* END PORTFOLIO LIST */}
-                </TabPanel>
-                {/* END VIMEO VIDEO */}
 
                 <TabPanel>
                   <ul className="portfolio_list">
@@ -228,65 +137,18 @@ const Portfolio = () => {
 
                 <TabPanel>
                   <ul className="portfolio_list">
-                    <SRLWrapper>
-                      <li data-aos="fade-right" data-aos-duration="1200">
-                        <div className="inner">
-                          <div className="entry tokyo_tm_portfolio_animation_wrap">
-                            <a href="assets/img/portfolio/4.jpg">
-                              <img
-                                src="assets/img/portfolio/4.jpg"
-                                alt="Childhood"
-                              />
-                            </a>
-                          </div>
-                          <div className="mobile_title">
-                            <h3>Derek Smith</h3>
-                            <span>Photo shoot</span>
-                          </div>
-                        </div>
-                      </li>
-                      {/* END SHOT */}
-                      <li
-                        data-aos="fade-right"
-                        data-aos-duration="1200"
-                        data-aos-delay="100"
-                      >
-                        <div className="inner">
-                          <div className="entry tokyo_tm_portfolio_animation_wrap">
-                            <a href="assets/img/portfolio/3.jpg">
-                              <img
-                                src="assets/img/portfolio/3.jpg"
-                                alt="Besh Award"
-                              />
-                            </a>
-                            <div className="mobile_title">
-                              <h3>Gloria Genkins</h3>
-                              <span>Photo shoot</span>
-                            </div>
-                          </div>
-                        </div>
-                      </li>
-                      {/* END SHOT */}
-                    </SRLWrapper>
-                  </ul>
-                  {/* END PORTFOLIO LIST */}
-                </TabPanel>
-                {/* END PHOTOGRAHY */}
-
-                <TabPanel>
-                  <ul className="portfolio_list">
                     <li data-aos="fade-right" data-aos-duration="1200">
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <img
                             src="assets/img/portfolio/6.jpg"
-                            alt="Details"
+                            alt="Key Projects"
                             onClick={toggleModalThree}
                           />
                         </div>
                         <div className="mobile_title">
                           <h3>Selena Gomez</h3>
-                          <span> Details</span>
+                          <span> Key Projects</span>
                         </div>
                       </div>
                     </li>
@@ -300,21 +162,21 @@ const Portfolio = () => {
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <img
                             src="assets/img/portfolio/7.jpg"
-                            alt="Details"
+                            alt="Key Projects"
                             onClick={toggleModalFour}
                           />
                         </div>
                         <div className="mobile_title">
                           <h3>Ave Simone</h3>
-                          <span> Details</span>
+                          <span> Key Projects</span>
                         </div>
                       </div>
                     </li>
                     {/* END DETAILS */}
                   </ul>
-                  {/* END DETAILS GALLERY */}
+                  {/* END KEY PROJECTS GALLERY */}
                 </TabPanel>
-                {/* END Details Gallery */}
+                {/* END Key Projects Gallery */}
               </div>
               {/* END LIST WRAPPER */}
             </Tabs>
@@ -331,14 +193,6 @@ const Portfolio = () => {
         onClose={() => setOpen(false)}
       />
       {/* End Youtube Modal video */}
-      <ModalVideo
-        channel="vimeo"
-        autoplay
-        isOpen={isOpen2}
-        videoId="100171151"
-        onClose={() => setOpen2(false)}
-      />
-      {/* End Vimeo Modal Video */}
 
       {/* START MODAL FOR PORTFOLIO DETAILS */}
       <Modal
@@ -368,7 +222,7 @@ const Portfolio = () => {
               {/* END IMAGE */}
               <div className="portfolio_main_title">
                 <h3>Selena Gomez</h3>
-                <span>Details</span>
+                <span>Key Projects</span>
               </div>
               {/* END portfolio_main_title */}
               <div className="main_details">
@@ -396,7 +250,7 @@ const Portfolio = () => {
                     </li>
                     <li>
                       <span className="first">Category</span>
-                      <span>Details</span>
+                      <span>Key Projects</span>
                     </li>
                     <li>
                       <span className="first">Date</span>
@@ -494,7 +348,7 @@ const Portfolio = () => {
               {/* END IMAGE */}
               <div className="portfolio_main_title">
                 <h3>Ave Simone</h3>
-                <span>Details</span>
+                <span>Key Projects</span>
               </div>
               {/* END portfolio_main_title */}
               <div className="main_details">
@@ -522,7 +376,7 @@ const Portfolio = () => {
                     </li>
                     <li>
                       <span className="first">Category</span>
-                      <span>Details</span>
+                      <span>Key Projects</span>
                     </li>
                     <li>
                       <span className="first">Date</span>

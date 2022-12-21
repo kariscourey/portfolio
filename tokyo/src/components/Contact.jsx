@@ -86,7 +86,7 @@ const Contact = () => {
         </div>
         {/* END FIELDS */}
       </div>
-      {/* END COTACT */}
+      {/* END CONTACT */}
     </>
   );
 };
