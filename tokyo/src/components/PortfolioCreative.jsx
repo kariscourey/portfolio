@@ -55,7 +55,7 @@ const Portfolio = () => {
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <img
-                            src="assets/img/portfolio/2.jpg"
+                            src="assets/img/portfolio/inverse.jpg"
                             alt="Youtube"
                             data-tip
                             data-for="youtube"
@@ -69,8 +69,8 @@ const Portfolio = () => {
                             className="tooltip-wrapper"
                           >
                             <div>
-                              <h5>Ashely Flores</h5>
-                              <span>Youtube</span>
+                              <h5>Watch me teach!</h5>
+                              <span>Become an inversing-2x2-matrices pro in 2 minutes.</span>
                             </div>
                           </ReactTooltip>
                         </div>
@@ -253,7 +253,7 @@ const Portfolio = () => {
         channel="youtube"
         autoplay
         isOpen={isOpen}
-        videoId="1gyTUHP6ne8"
+        videoId="OND-pHKP_Og"
         onClose={() => setOpen(false)}
       />
 
