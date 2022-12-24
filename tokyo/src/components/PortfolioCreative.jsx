@@ -70,7 +70,7 @@ const Portfolio = () => {
                           >
                             <div>
                               <h5>Watch me teach!</h5>
-                              <span>Become an inversing-2x2-matrices pro in 2 minutes.</span>
+                              <span>Become an inversing-2x2-matrices pro in 2 min.</span>
                             </div>
                           </ReactTooltip>
                         </div>
