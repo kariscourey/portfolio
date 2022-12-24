@@ -36,8 +36,8 @@ const NotFound = () => {
               <div className="tokyo_tm_error">
                 <div className="tokyo_tm_error_inner">
                   <h1>404!</h1>
-                  <h3>Page not found</h3>
-                  <p>The page you were looking for could not be found.</p>
+                  <h3>Uh oh... {':('}</h3>
+                  <p>Looks like you're lost, friend.</p>
                   <Link to="/" className="ib-button">
                     Go to Home
                   </Link>
