@@ -40,8 +40,8 @@ const Contact = () => {
         <div className="tokyo_tm_title">
           <div className="title_flex">
             <div className="left">
-              <span>Contact</span>
-              <h3>Get in Touch</h3>
+              <span>Get in touch</span>
+              <h3>Contact</h3>
             </div>
           </div>
         </div>
