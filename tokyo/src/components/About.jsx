@@ -41,13 +41,18 @@ const About = () => {
               <ul>
                 <li>
                   <p>
-                    <span>Email:</span>
-                    <a href="mailto:kariscourey@gmail.com">kariscourey@gmail.com</a>
+                    <span>LinkedIn:</span><a href="https://linkedin.com/in/kariscourey">Karis Courey</a>
                   </p>
                 </li>
                 <li>
                   <p>
                     <span>Degree:</span><a href="https://www.cc.gatech.edu/degree-programs/master-science-computer-science">M.S. in Computer Science</a>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <span>Email:</span>
+                    <a href="mailto:kariscourey@gmail.com">kariscourey@gmail.com</a>
                   </p>
                 </li>
               </ul>
@@ -147,9 +152,9 @@ const About = () => {
                       </div>
                     </div>
 
-                  <p>
-                    Percentage represents proficiency.
-                  </p>
+                    <p>
+                      Percentage represents proficiency.
+                    </p>
 
                   </div>
                   {/* END PROGRESS */}
