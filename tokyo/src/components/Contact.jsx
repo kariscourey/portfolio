@@ -2,8 +2,10 @@ import React from "react";
 import { useState } from "react";
 import ReactMapGL from "react-map-gl";
 import emailjs from "emailjs-com";
+import { useAlert } from 'react-alert';
 
 const Contact = () => {
+  const alert = useAlert();
   const [viewport, setViewport] = useState({
     latitude: 40.7608,
     longitude: -111.8910,
@@ -22,7 +24,7 @@ const Contact = () => {
       )
       .then((res) => {
         console.log(res);
-        // alert
+        alert.show('Email sent!')
       })
       .catch((err) => {
         console.log(err);

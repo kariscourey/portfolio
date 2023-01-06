@@ -46,7 +46,7 @@ const About = () => {
                 </li>
                 <li>
                   <p>
-                    <span>Degree:</span><a href="https://www.cc.gatech.edu/degree-programs/master-science-computer-science">M.S. in Computer Science</a>
+                    <span>Degree:</span><a href="https://www.cc.gatech.edu/degree-programs/master-science-computer-science">M.S., Computer Science</a>
                   </p>
                 </li>
                 <li>
@@ -267,7 +267,7 @@ const About = () => {
                     </div>
 
                   </div>
-                  {/* EDN TOKYO PROGRESS */}
+                  {/* END TOKYO PROGRESS */}
                 </div>
                 {/* END RIGHT */}
               </div>

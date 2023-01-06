@@ -104,13 +104,13 @@ const HomeLight = () => {
 
               <div className="copyright">
                 <p>
-                  &copy; {new Date().getFullYear()} Tokyo <br /> Created by
+                  &copy; {new Date().getFullYear()}
                   <a
-                    href="https://themeforest.net/user/ib-themes"
+                    href="https://linkedin.com/in/kariscourey"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Ib-Themes
+                    Karis Courey
                   </a>
                 </p>
               </div>
