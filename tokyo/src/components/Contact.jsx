@@ -24,10 +24,11 @@ const Contact = () => {
       )
       .then((res) => {
         console.log(res);
-        alert.show('Email sent!')
+        alert.success('Email sent!');
       })
       .catch((err) => {
         console.log(err);
+        alert.error('Error sending email :(');
       });
 
     e.target.reset();

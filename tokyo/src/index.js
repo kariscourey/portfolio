@@ -9,8 +9,8 @@ import reportWebVitals from "./reportWebVitals";
 // alert configuration
 const options = {
     position: positions.BOTTOM_CENTER,
-    timeout: 5000,
-    offset: '30px',
+    timeout: 4000,
+    offset: '40px',
     transition: transitions.SCALE
 }
 

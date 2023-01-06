@@ -46,7 +46,7 @@ const About = () => {
                 </li>
                 <li>
                   <p>
-                    <span>Degree:</span><a href="https://www.cc.gatech.edu/degree-programs/master-science-computer-science">M.S., Computer Science</a>
+                    <span>Degree:</span><a href="https://www.cc.gatech.edu/degree-programs/master-science-computer-science">M.S., Comp. Sci., candidate</a>
                   </p>
                 </li>
                 <li>
