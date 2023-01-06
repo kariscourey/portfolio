@@ -6,7 +6,7 @@ import emailjs from "emailjs-com";
 const Contact = () => {
   const [viewport, setViewport] = useState({
     latitude: 40.7608,
-    longitude: 111.8910,
+    longitude: -111.8910,
     zoom: 8,
   });
 

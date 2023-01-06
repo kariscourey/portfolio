@@ -1,4 +1,4 @@
-# Karis Courey Portfolio
+# Karis Courey
 
 
 ## Design
