@@ -15,13 +15,14 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_n4mkhz9",
-        "template_ugoztxr",
+        "service_3c7vuqj",
+        "template_9ipvlz3",
         e.target,
-        "user_vYmDSd9PwIuRXUQEDjYwN"
+        "yCFFrS3brLdHUiHSF"
       )
       .then((res) => {
         console.log(res);
+        // alert
       })
       .catch((err) => {
         console.log(err);
