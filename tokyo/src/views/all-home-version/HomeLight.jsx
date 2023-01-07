@@ -98,6 +98,14 @@ const HomeLight = () => {
                     />
                     <span className="menu_content"> Contact</span>
                   </Tab>
+                  <Tab>
+                    <img
+                      className="svg"
+                      src="/assets/img/svg/mail.svg"
+                      alt="mail"
+                    />
+                    <span className="menu_content"> <a href="https://drive.google.com/file/d/1Pi0X27mSo45qb_nMMSTYfgDWnv0N9C0d/view?usp=sharing">Resume</a></span>
+                  </Tab>
                 </ul>
               </div>
               {/* END MENU */}

@@ -46,13 +46,23 @@ const About = () => {
                 </li>
                 <li>
                   <p>
-                    <span>Degree:</span><a href="https://www.cc.gatech.edu/degree-programs/master-science-computer-science">M.S., Comp. Sci., candidate</a>
+                    <span>Email:</span>
+                    <a href="mailto:kariscourey@gmail.com">kariscourey@gmail.com</a>
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span>Email:</span>
-                    <a href="mailto:kariscourey@gmail.com">kariscourey@gmail.com</a>
+                    <span>Grad:</span><a href="https://www.cc.gatech.edu/degree-programs/master-science-computer-science">M.S., Comp. Sci., candidate</a>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <span>Bootcamp:</span><a href="https://www.galvanize.com/hack-reactor/beginner/full-time-bootcamp/">Hack Reactor's SWE Immersive</a>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <span>Undergrad:</span><a href="https://drive.google.com/file/d/1mw_wpcI1iS7NAmOrqpj8U4oh3HBZZfNA/view?usp=sharing">B.S., Chem. Engineering</a>
                   </p>
                 </li>
               </ul>
@@ -286,7 +296,7 @@ const About = () => {
                   </li>
                   <li>
                     <div className="list_inner">
-                      <h3>1.5K+</h3>
+                      <h3>2K+</h3>
                       <span>Hours coding</span>
                     </div>
                   </li>
@@ -294,6 +304,24 @@ const About = () => {
                     <div className="list_inner">
                       <h3>12K+</h3>
                       <span>Hours engineering</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <h3>6</h3>
+                      <span>Certifications</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <h3>13</h3>
+                      <span>Honors and awards</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <h3>500k+</h3>
+                      <span>Performance audience</span>
                     </div>
                   </li>
                 </ul>
