@@ -338,7 +338,7 @@ const Portfolio = () => {
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url(assets/img/portfolio/8.jpg)",
+                            backgroundImage: "url(assets/img/portfolio/cogo-6.jpg)",
                           }}
                         ></div>
                       </div>
@@ -352,7 +352,7 @@ const Portfolio = () => {
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url(assets/img/portfolio/2.jpg)",
+                            backgroundImage: "url(assets/img/portfolio/cogo-2.jpg)",
                           }}
                         ></div>
                       </div>
@@ -366,7 +366,7 @@ const Portfolio = () => {
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url(assets/img/portfolio/3.jpg)",
+                            backgroundImage: "url(assets/img/portfolio/cogo-3.jpg)",
                           }}
                         ></div>
                       </div>
@@ -404,7 +404,7 @@ const Portfolio = () => {
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/portfolio/7.jpg)",
+                    backgroundImage: "url(assets/img/portfolio/cogo-6.jpg)",
                   }}
                 ></div>
               </div>
@@ -464,7 +464,7 @@ const Portfolio = () => {
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url(assets/img/portfolio/6.jpg)",
+                            backgroundImage: "url(assets/img/portfolio/cogo-6.jpg)",
                           }}
                         ></div>
                       </div>
@@ -478,7 +478,7 @@ const Portfolio = () => {
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url(assets/img/portfolio/5.jpg)",
+                            backgroundImage: "url(assets/img/portfolio/cogo-5.jpg)",
                           }}
                         ></div>
                       </div>
@@ -492,7 +492,7 @@ const Portfolio = () => {
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url(assets/img/portfolio/4.jpg)",
+                            backgroundImage: "url(assets/img/portfolio/cogo-4.jpg)",
                           }}
                         ></div>
                       </div>
