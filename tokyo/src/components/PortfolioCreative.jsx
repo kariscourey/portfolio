@@ -85,7 +85,7 @@ const Portfolio = () => {
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <img
-                            src="assets/img/portfolio/6.jpg"
+                            src="assets/img/portfolio/cogo-2.jpg"
                             alt="Key Projects"
                             data-tip
                             data-for="detail"
@@ -100,8 +100,8 @@ const Portfolio = () => {
                             className="tooltip-wrapper"
                           >
                             <div>
-                              <h5>Selena Gomez</h5>
-                              <span>Key Projects</span>
+                              <h5>Conference GO</h5>
+                              <span>Conference-management solution featuring Django, React, and RESTful APIs.</span>
                             </div>
                           </ReactTooltip>
                         </div>
@@ -116,7 +116,7 @@ const Portfolio = () => {
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <img
-                            src="assets/img/portfolio/7.jpg"
+                            src="assets/img/portfolio/hot-4b.jpg"
                             alt="Key Projects"
                             data-tip
                             data-for="detail2"
@@ -131,8 +131,70 @@ const Portfolio = () => {
                             className="tooltip-wrapper"
                           >
                             <div>
-                              <h5>Ave Simone</h5>
-                              <span>Key Projects</span>
+                              <h5>Hot Stocks</h5>
+                              <span>Social-media-app-inspired stock portfolio and news management solution featuring FastAPI, React Redux, PostgreSQL, and RESTful APIs.</span>
+                            </div>
+                          </ReactTooltip>
+                        </div>
+                      </div>
+                    </li>
+                    {/* END DETAILS */}
+                    <li
+                      data-aos="fade-right"
+                      data-aos-duration="1200"
+                      data-aos-delay="200"
+                    >
+                      <div className="inner">
+                        <div className="entry tokyo_tm_portfolio_animation_wrap">
+                          <img
+                            src="assets/img/portfolio/task-3.jpg"
+                            alt="Key Projects"
+                            data-tip
+                            data-for="detail2"
+                            onClick={toggleModalFour}
+                          />
+
+                          <ReactTooltip
+                            id="detail2"
+                            place="bottom"
+                            type="light"
+                            effect="float"
+                            className="tooltip-wrapper"
+                          >
+                            <div>
+                              <h5>Tasker</h5>
+                              <span>Cross-company task-management solution featuring Django and a templated front end.</span>
+                            </div>
+                          </ReactTooltip>
+                        </div>
+                      </div>
+                    </li>
+                    {/* END DETAILS */}
+                    <li
+                      data-aos="fade-right"
+                      data-aos-duration="1200"
+                      data-aos-delay="200"
+                    >
+                      <div className="inner">
+                        <div className="entry tokyo_tm_portfolio_animation_wrap">
+                          <img
+                            src="assets/img/portfolio/auto-2.jpg"
+                            alt="Key Projects"
+                            data-tip
+                            data-for="detail2"
+                            onClick={toggleModalFour}
+                          />
+
+                          <ReactTooltip
+                            id="detail2"
+                            place="bottom"
+                            type="light"
+                            effect="float"
+                            className="tooltip-wrapper"
+                          >
+                            <div>
+                              <h5>AutoAuto</h5>
+                              <span>Automobile-dealership-management solution featuring Django, React, domain-driven design, microservices, and RESTful APIs.</span>
                             </div>
                           </ReactTooltip>
                         </div>
@@ -150,7 +212,7 @@ const Portfolio = () => {
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <img
-                            src="assets/img/portfolio/2.jpg"
+                            src="assets/img/portfolio/inverse.jpg"
                             alt="Youtube"
                             data-tip
                             data-for="youtube"
@@ -164,8 +226,8 @@ const Portfolio = () => {
                             className="tooltip-wrapper"
                           >
                             <div>
-                              <h5>Ashely Flores</h5>
-                              <span>Youtube</span>
+                              <h5>Watch me teach!</h5>
+                              <span>Become an inversing-2x2-matrices pro in 2 min.</span>
                             </div>
                           </ReactTooltip>
                         </div>
@@ -183,7 +245,7 @@ const Portfolio = () => {
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <img
-                            src="assets/img/portfolio/6.jpg"
+                            src="assets/img/portfolio/cogo-6.jpg"
                             alt="Key Projects"
                             data-tip
                             data-for="detail"
@@ -214,7 +276,7 @@ const Portfolio = () => {
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <img
-                            src="assets/img/portfolio/7.jpg"
+                            src="assets/img/portfolio/hot-2.jpg"
                             alt="Key Projects"
                             data-tip
                             data-for="detail2"
@@ -278,7 +340,7 @@ const Portfolio = () => {
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/portfolio/6.jpg)",
+                    backgroundImage: "url(assets/img/portfolio/cogo-6.jpg)",
                   }}
                 ></div>
               </div>
