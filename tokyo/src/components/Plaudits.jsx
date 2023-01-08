@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Modal from "react-modal";
 import Social from "./Social";
 
+// TODO add recs from linkedin
+
 Modal.setAppElement("#root");
 
 const Plaudits = () => {
