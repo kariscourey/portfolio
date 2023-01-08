@@ -1,12 +1,13 @@
 import React, { useState } from "react";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { FaMoon, FaSun } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import Home from "../../components/Home";
+import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import About from "../../components/About";
-import Portfolio from "../../components/PortfolioCreative";
-import News from "../../components/News";
 import Contact from "../../components/Contact";
+import Home from "../../components/Home";
+import News from "../../components/News";
+import Portfolio from "../../components/PortfolioCreative";
+import Resume from "../../components/Resume";
 
 const HomeLight = () => {
   const [isDark, setIsDark] = useState(false);
@@ -96,15 +97,15 @@ const HomeLight = () => {
                       src="/assets/img/svg/mail.svg"
                       alt="mail"
                     />
-                    <span className="menu_content"> Contact</span>
+                    <span className="menu_content">Contact</span>
                   </Tab>
                   <Tab>
                     <img
                       className="svg"
-                      src="/assets/img/svg/mail.svg"
-                      alt="mail"
+                      src="/assets/img/svg/resume.svg"
+                      alt="resume"
                     />
-                    <span className="menu_content"> <a href="https://drive.google.com/file/d/1Pi0X27mSo45qb_nMMSTYfgDWnv0N9C0d/view?usp=sharing">Resume</a></span>
+                    <span className="menu_content"><a href="https://drive.google.com/file/d/1Pi0X27mSo45qb_nMMSTYfgDWnv0N9C0d/view?usp=sharing">Resume</a></span>
                   </Tab>
                 </ul>
               </div>
@@ -163,15 +164,17 @@ const HomeLight = () => {
                 {/* END NEWS MENU TAB CONTENT */}
 
                 <TabPanel>
-                  <div
-                    data-aos="fade-right"
-                    data-aos-duration="1200"
-                    data-aos-delay="200"
-                  >
+                  <div>
                     <Contact />
                   </div>
                 </TabPanel>
                 {/* END CONTACT MENU TAB CONTENT */}
+
+                <TabPanel>
+                  <Resume />
+                </TabPanel>
+                {/* END RESUME TAB CONTENT */}
+
               </div>
             </div>
           </div>

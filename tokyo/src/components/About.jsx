@@ -57,7 +57,7 @@ const About = () => {
                 </li>
                 <li>
                   <p>
-                    <span>Bootcamp:</span><a href="https://www.galvanize.com/hack-reactor/beginner/full-time-bootcamp/">Hack Reactor's SWE Immersive</a>
+                    <span>Bootcamp:</span><a href="https://www.galvanize.com/hack-reactor/beginner/full-time-bootcamp/">Hack Reactor's Immersive</a>
                   </p>
                 </li>
                 <li>
