@@ -1,12 +1,11 @@
 import React, { useState } from "react";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import SimpleReactLightbox from "simple-react-lightbox";
-import { SRLWrapper } from "simple-react-lightbox";
-import ReactTooltip from "react-tooltip";
-import ModalVideo from "react-modal-video";
 import Modal from "react-modal";
-import Social from "./Social";
+import ModalVideo from "react-modal-video";
+import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
+import ReactTooltip from "react-tooltip";
+import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
 import Project from "./Project";
+import Social from "./Social";
 
 const Portfolio = () => {
   // for popup video
@@ -372,7 +371,7 @@ const Portfolio = () => {
                     </li>
                     <li>
                       <span className="first">Source code</span>
-                      <Project name={`conference-go`} />
+                      <Project name={`kariscourey/conference-go`} />
                     </li>
                   </ul>
                 </div>
@@ -468,7 +467,7 @@ const Portfolio = () => {
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/portfolio/cogo-6.jpg)",
+                    backgroundImage: "url(assets/img/portfolio/hot-4b.jpg)",
                   }}
                 ></div>
               </div>
@@ -481,38 +480,38 @@ const Portfolio = () => {
               <div className="main_details">
                 <div className="textbox">
                   <p>
-                    We live in a world where we need to move quickly and iterate
-                    on our ideas as flexibly as possible. Building mockups
-                    strikes the ideal balance between true-life representation
-                    of the end product and ease of modification.
+                    Developed with{' '}
+                    <a href="https://www.linkedin.com/in/micheline-doughlin-ba101678/">Micheline Doughlin</a>,{' '}
+                    <a href="https://www.linkedin.com/in/bensjostrom/">Ben Sjostrom</a>, and{' '}
+                    <a href="https://www.linkedin.com/in/york-shaw/">York Shaw</a>.
                   </p>
                   <p>
-                    Mockups are useful both for the creative phase of the
-                    project - for instance when you're trying to figure out your
-                    user flows or the proper visual hierarchy - and the
-                    production phase when they will represent the target
-                    product. Making mockups a part of your creative and
-                    development process allows you to quickly and easily ideate.
+                    Modern, social-media-app-inspired stock portfolio solution designed for evaluating live stock and related news data, managing a portfolio, and saving data of interest.
+                  </p>
+                  <p>
+                    Features FastAPI, React Redux, PostgreSQL, and data interactions with RESTful APIs.
+                  </p>
+                  <p>
+                    <a href="https://igneous-rocks.gitlab.io/hot-stocks/">Front end</a> deployed with GitLab Pages.{' '}
+                    <a href="https://hot-stocks.onrender.com">Back end</a> deployed with Render.
+                  </p>
+                  <p>
+                    For young individuals who are interested in investing in stocks and growing their portfolio.
                   </p>
                 </div>
                 <div className="detailbox">
                   <ul>
                     <li>
-                      <span className="first">Client</span>
-                      <span>Alvaro Morata</span>
-                    </li>
-                    <li>
-                      <span className="first">Category</span>
-                      <span>Key projects</span>
+                      <span className="first">Role</span>
+                      <span>Project Manager<br />Lead Developer</span>
                     </li>
                     <li>
                       <span className="first">Date</span>
-                      <span>March 07, 2021</span>
+                      <span>2022</span>
                     </li>
                     <li>
-                      <span className="first">Share</span>
-                      <Social />
-                      {/* END SOCIAL SHARE */}
+                      <span className="first">Source code</span>
+                      <Project name={`igneous-rocks/hot-stocks`} />
                     </li>
                   </ul>
                 </div>
@@ -528,7 +527,7 @@ const Portfolio = () => {
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url(assets/img/portfolio/cogo-6.jpg)",
+                            backgroundImage: "url(assets/img/portfolio/hot-2.jpg)",
                           }}
                         ></div>
                       </div>
@@ -542,7 +541,7 @@ const Portfolio = () => {
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url(assets/img/portfolio/cogo-5.jpg)",
+                            backgroundImage: "url(assets/img/portfolio/hot-3.jpg)",
                           }}
                         ></div>
                       </div>
@@ -556,7 +555,91 @@ const Portfolio = () => {
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url(assets/img/portfolio/cogo-4.jpg)",
+                            backgroundImage: "url(assets/img/portfolio/hot-4.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/hot-5.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/hot-6.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/hot-7.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/hot-8.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/hot-9.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/hot-10.jpg)",
                           }}
                         ></div>
                       </div>

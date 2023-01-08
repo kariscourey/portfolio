@@ -2336,6 +2336,16 @@ body.modal {
     width: 100%;
     padding-right: 0;
   }
+
+  a {
+    color: #000;
+    text-decoration: none;
+    &:hover {
+      color: #000;
+      transition: all 0.3s ease;
+      letter-spacing: 2px;
+    }
+  }
 }
 
 .portfolio_tm_modalbox .main_details .textbox p {
