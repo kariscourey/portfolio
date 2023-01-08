@@ -320,8 +320,8 @@ const About = () => {
                   </li>
                   <li>
                     <div className="list_inner">
-                      <h3>500k+</h3>
-                      <span>Performance audience</span>
+                      <h3>2</h3>
+                      <span>Publications</span>
                     </div>
                   </li>
                 </ul>

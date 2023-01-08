@@ -6,6 +6,7 @@ import ReactTooltip from "react-tooltip";
 import ModalVideo from "react-modal-video";
 import Modal from "react-modal";
 import Social from "./Social";
+import Project from "./Project";
 
 const Portfolio = () => {
   // for popup video
@@ -41,8 +42,8 @@ const Portfolio = () => {
             <Tabs>
               <TabList>
                 <Tab>All</Tab>
-                <Tab>Youtube</Tab>
-                <Tab>Key Projects</Tab>
+                <Tab>Videos</Tab>
+                <Tab>Key projects</Tab>
               </TabList>
               {/* END TABLIST */}
               <div className="list_wrapper">
@@ -85,13 +86,12 @@ const Portfolio = () => {
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <img
-                            src="assets/img/portfolio/cogo-2.jpg"
-                            alt="Key Projects"
+                            src="assets/img/portfolio/cogo-1.jpg"
+                            alt="Key projects"
                             data-tip
                             data-for="detail"
                             onClick={toggleModalThree}
                           />
-
                           <ReactTooltip
                             id="detail"
                             place="bottom"
@@ -101,7 +101,7 @@ const Portfolio = () => {
                           >
                             <div>
                               <h5>Conference GO</h5>
-                              <span>Conference-management solution featuring Django, React, and RESTful APIs.</span>
+                              <span>Conference-management solution featuring Django, React, domain-driven design, microservices, and data interactions with RESTful APIs.</span>
                             </div>
                           </ReactTooltip>
                         </div>
@@ -111,18 +111,16 @@ const Portfolio = () => {
                     <li
                       data-aos="fade-right"
                       data-aos-duration="1200"
-                      data-aos-delay="200"
-                    >
+                      data-aos-delay="200">
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <img
                             src="assets/img/portfolio/hot-4b.jpg"
-                            alt="Key Projects"
+                            alt="Key projects"
                             data-tip
                             data-for="detail2"
                             onClick={toggleModalFour}
                           />
-
                           <ReactTooltip
                             id="detail2"
                             place="bottom"
@@ -148,14 +146,14 @@ const Portfolio = () => {
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <img
                             src="assets/img/portfolio/task-3.jpg"
-                            alt="Key Projects"
+                            alt="Key projects"
                             data-tip
-                            data-for="detail2"
+                            data-for="detail3"
                             onClick={toggleModalFour}
                           />
 
                           <ReactTooltip
-                            id="detail2"
+                            id="detail3"
                             place="bottom"
                             type="light"
                             effect="float"
@@ -179,14 +177,14 @@ const Portfolio = () => {
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <img
                             src="assets/img/portfolio/auto-2.jpg"
-                            alt="Key Projects"
+                            alt="Key projects"
                             data-tip
-                            data-for="detail2"
+                            data-for="detail4"
                             onClick={toggleModalFour}
                           />
 
                           <ReactTooltip
-                            id="detail2"
+                            id="detail4"
                             place="bottom"
                             type="light"
                             effect="float"
@@ -246,7 +244,7 @@ const Portfolio = () => {
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <img
                             src="assets/img/portfolio/cogo-6.jpg"
-                            alt="Key Projects"
+                            alt="Key projects"
                             data-tip
                             data-for="detail"
                             onClick={toggleModalThree}
@@ -261,7 +259,7 @@ const Portfolio = () => {
                           >
                             <div>
                               <h5>Selena Gomez</h5>
-                              <span>Key Projects</span>
+                              <span>Key projects</span>
                             </div>
                           </ReactTooltip>
                         </div>
@@ -277,7 +275,7 @@ const Portfolio = () => {
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <img
                             src="assets/img/portfolio/hot-2.jpg"
-                            alt="Key Projects"
+                            alt="Key projects"
                             data-tip
                             data-for="detail2"
                             onClick={toggleModalFour}
@@ -291,8 +289,8 @@ const Portfolio = () => {
                             className="tooltip-wrapper"
                           >
                             <div>
-                              <h5>Ave Simone</h5>
-                              <span>Key Projects</span>
+                              <h5>Hot Stocks</h5>
+                              <span>Cloud-Based Web Application</span>
                             </div>
                           </ReactTooltip>
                         </div>
@@ -340,51 +338,41 @@ const Portfolio = () => {
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/portfolio/cogo-6.jpg)",
+                    backgroundImage: "url(assets/img/portfolio/cogo-2.jpg)",
                   }}
                 ></div>
               </div>
               {/* END IMAGE */}
               <div className="portfolio_main_title">
-                <h3>Selena Gomez</h3>
-                <span>Key Projects</span>
+                <h3>Conference GO</h3>
+                <span>Web Application</span>
               </div>
               {/* END portfolio_main_title */}
               <div className="main_details">
                 <div className="textbox">
                   <p>
-                    We live in a world where we need to move quickly and iterate
-                    on our ideas as flexibly as possible. Building mockups
-                    strikes the ideal balance between true-life representation
-                    of the end product and ease of modification.
+                    Conference-management solution designed for planning and running conferences. Supports presentation, location, and attendee creation and management.
                   </p>
                   <p>
-                    Mockups are useful both for the creative phase of the
-                    project - for instance when you're trying to figure out your
-                    user flows or the proper visual hierarchy - and the
-                    production phase when they will represent the target
-                    product. Making mockups a part of your creative and
-                    development process allows you to quickly and easily ideate.
+                    Features Django, React, domain-driven design, microservices, and data interactions with RESTful APIs.
+                  </p>
+                  <p>
+                    For companies who intend to have a hub for all things conferences and utilize a sophisticated solution for managing presentations, locations, and attendees.
                   </p>
                 </div>
                 <div className="detailbox">
                   <ul>
                     <li>
-                      <span className="first">Client</span>
-                      <span>Alvaro Morata</span>
-                    </li>
-                    <li>
-                      <span className="first">Category</span>
-                      <span>Key Projects</span>
+                      <span className="first">Role</span>
+                      <span>Lead Developer</span>
                     </li>
                     <li>
                       <span className="first">Date</span>
-                      <span>March 07, 2021</span>
+                      <span>2022</span>
                     </li>
                     <li>
-                      <span className="first">Share</span>
-                      <Social />
-                      {/* END SOCIAL SHARE */}
+                      <span className="first">Source code</span>
+                      <Project name={`conference-go`} />
                     </li>
                   </ul>
                 </div>
@@ -414,7 +402,21 @@ const Portfolio = () => {
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url(assets/img/portfolio/cogo-2.jpg)",
+                            backgroundImage: "url(assets/img/portfolio/cogo-4.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/cogo-5.jpg)",
                           }}
                         ></div>
                       </div>
@@ -472,8 +474,8 @@ const Portfolio = () => {
               </div>
               {/* END IMAGE */}
               <div className="portfolio_main_title">
-                <h3>Ave Simone</h3>
-                <span>Key Projects</span>
+                <h3>Hot Stocks</h3>
+                <span>Cloud-Based Web Application</span>
               </div>
               {/* END portfolio_main_title */}
               <div className="main_details">
@@ -501,7 +503,7 @@ const Portfolio = () => {
                     </li>
                     <li>
                       <span className="first">Category</span>
-                      <span>Key Projects</span>
+                      <span>Key projects</span>
                     </li>
                     <li>
                       <span className="first">Date</span>
