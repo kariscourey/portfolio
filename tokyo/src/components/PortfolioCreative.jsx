@@ -3,24 +3,30 @@ import Modal from "react-modal";
 import ModalVideo from "react-modal-video";
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import ReactTooltip from "react-tooltip";
-import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
+import SimpleReactLightbox from "simple-react-lightbox";
 import Project from "./Project";
-import Social from "./Social";
 
 const Portfolio = () => {
   // for popup video
   const [isOpen, setOpen] = useState(false);
-  const [isOpen2, setOpen2] = useState(false);
 
   // for modal
-  const [isOpen3, setIsOpen3] = useState(false);
-  const [isOpen4, setIsOpen4] = useState(false);
+  const [isOpen3, setIsOpen3] = useState(false); // cogo
+  const [isOpen4, setIsOpen4] = useState(false); // hot
+  const [isOpen5, setIsOpen5] = useState(false); // task
+  const [isOpen6, setIsOpen6] = useState(false);
 
   function toggleModalThree() {
     setIsOpen3(!isOpen3);
   }
   function toggleModalFour() {
     setIsOpen4(!isOpen4);
+  }
+  function toggleModalFive() {
+    setIsOpen5(!isOpen5);
+  }
+  function toggleModalSix() {
+    setIsOpen6(!isOpen6);
   }
 
   return (
@@ -148,7 +154,7 @@ const Portfolio = () => {
                             alt="Key projects"
                             data-tip
                             data-for="detail3"
-                            onClick={toggleModalFour}
+                            onClick={toggleModalFive}
                           />
 
                           <ReactTooltip
@@ -179,7 +185,7 @@ const Portfolio = () => {
                             alt="Key projects"
                             data-tip
                             data-for="detail4"
-                            onClick={toggleModalFour}
+                            onClick={toggleModalSix}
                           />
 
                           <ReactTooltip
@@ -655,6 +661,469 @@ const Portfolio = () => {
         {/* END MODALBOX NEWS */}
       </Modal>
       {/* END MODAL FOR PORTFOLIO DETAILS */}
+
+
+      {/* START MODAL FOR PORTFOLIO DETAILS */}
+      <Modal
+        isOpen={isOpen5}
+        onRequestClose={toggleModalFive}
+        contentLabel="My dialog"
+        className="mymodal"
+        overlayClassName="myoverlay"
+        closeTimeoutMS={500}
+      >
+        <div className="tokyo_tm_modalbox_news portfolio_tm_modalbox">
+          <button className="close-modal" onClick={toggleModalFive}>
+            <img src="assets/img/svg/cancel.svg" alt="close icon" />
+          </button>
+          {/* END CLOSE ICON */}
+          <div className="box_inner">
+            <div className="description_wrap scrollable">
+              <div className="image">
+                <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />
+                <div
+                  className="main"
+                  style={{
+                    backgroundImage: "url(assets/img/portfolio/task-3.jpg)",
+                  }}
+                ></div>
+              </div>
+              {/* END IMAGE */}
+              <div className="portfolio_main_title">
+                <h3>Tasker</h3>
+                <span>Web Application</span>
+              </div>
+              {/* END portfolio_main_title */}
+              <div className="main_details">
+                <div className="textbox">
+                  <p>
+                    Task-management solution designed for cross-company utilization. Supports task and project creation and management.
+                  </p>
+                  <p>
+                    Features Django and a templated front end.
+                  </p>
+                  <p>
+                    For individuals and companies who desire to better organize projects and tasks associated with projects.
+                  </p>
+                </div>
+                <div className="detailbox">
+                  <ul>
+                    <li>
+                      <span className="first">Role</span>
+                      <span>Lead Developer</span>
+                    </li>
+                    <li>
+                      <span className="first">Date</span>
+                      <span>2022</span>
+                    </li>
+                    <li>
+                      <span className="first">Source code</span>
+                      <Project name={`kariscourey/tasker`} />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              {/* main_details */}
+
+              <div className="additional_images">
+                <ul className="gallery_zoom">
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/task-1.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/task-2.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/task-3.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/task-4.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/task-5.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/task-6.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                </ul>
+              </div>
+            </div>
+          </div>
+          {/* END BOX INNER */}
+        </div>
+        {/* END MODALBOX NEWS */}
+      </Modal>
+      {/* END MODAL FOR PORTFOLIO DETAILS */}
+
+
+
+      {/* START MODAL FOR PORTFOLIO DETAILS */}
+      <Modal
+        isOpen={isOpen6}
+        onRequestClose={toggleModalSix}
+        contentLabel="My dialog"
+        className="mymodal"
+        overlayClassName="myoverlay"
+        closeTimeoutMS={500}
+      >
+        <div className="tokyo_tm_modalbox_news portfolio_tm_modalbox">
+          <button className="close-modal" onClick={toggleModalSix}>
+            <img src="assets/img/svg/cancel.svg" alt="close icon" />
+          </button>
+          {/* END CLOSE ICON */}
+          <div className="box_inner">
+            <div className="description_wrap scrollable">
+              <div className="image">
+                <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />
+                <div
+                  className="main"
+                  style={{
+                    backgroundImage: "url(assets/img/portfolio/auto-2.jpg)",
+                  }}
+                ></div>
+              </div>
+              {/* END IMAGE */}
+              <div className="portfolio_main_title">
+                <h3>AutoAuto</h3>
+                <span>Web Application</span>
+              </div>
+              {/* END portfolio_main_title */}
+              <div className="main_details">
+                <div className="textbox">
+                  <p>
+                    Developed with Angel Sierra.
+                  </p>
+                  <p>
+                    Automobile-dealership-management solution designed for managing automobile inventory, sales, services, employees, and customers. Supports automobile, sale, service, employee, and customer creation and management.
+                  </p>
+                  <p>
+                    Features Django, React, domain-driven design, microservices, and data interactions with RESTful APIs.
+                  </p>
+                  <p>
+                    For automobile dealerships who intend to utilize a sophisticated solution for managing inventory, sales, services, empoloyees, and customers.
+                  </p>
+                </div>
+                <div className="detailbox">
+                  <ul>
+                    <li>
+                      <span className="first">Role</span>
+                      <span>Lead Developer</span>
+                    </li>
+                    <li>
+                      <span className="first">Date</span>
+                      <span>2022</span>
+                    </li>
+                    <li>
+                      <span className="first">Source code</span>
+                      <Project name={`kariscourey/autoauto`} />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              {/* main_details */}
+
+              <div className="additional_images">
+                <ul className="gallery_zoom">
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/auto-3.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/auto-4.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/auto-5.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/auto-6.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/auto-7.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/auto-8.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/auto-9.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/auto-10.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/auto-11.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/auto-12.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/auto-13.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/auto-14.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/auto-15.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/auto-16.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/auto-17.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/auto-18.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                </ul>
+              </div>
+            </div>
+          </div>
+          {/* END BOX INNER */}
+        </div>
+        {/* END MODALBOX NEWS */}
+      </Modal>
+      {/* END MODAL FOR PORTFOLIO DETAILS */}
+
     </>
   );
 };

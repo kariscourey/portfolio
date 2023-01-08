@@ -13,7 +13,7 @@ const GitSites = [
 const Project = (props) => {
   return (
     <>
-      {props.name == 'igneous-rocks/hot-stocks' ?
+      {props.name === 'igneous-rocks/hot-stocks' ?
         <ul className="social">
           <li>
             <a href={`${GitSites[1].link}/${props.name}`} target="_blank" rel="noreferrer">
