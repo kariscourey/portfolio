@@ -987,6 +987,16 @@ h6 {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  a {
+    color: #000;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    &:hover {
+      transition: all 0.3s ease;
+      letter-spacing: 2px;
+    }
+  }
 }
 
 .tokyo_tm_portfolio .portfolio_filter .react-tabs__tab-list {
@@ -1013,16 +1023,6 @@ h6 {
   margin-right: 0px;
 }
 
-.tokyo_tm_portfolio .resume_content a {
-  color: #000;
-  position: relative;
-  overflow: hidden;
-  text-decoration: none;
-  &:hover {
-    transition: all 0.3s ease;
-    letter-spacing: 2px;
-  }
-}
 
 .tokyo_tm_portfolio .portfolio_filter .react-tabs__tab-list li:hover,
 .tokyo_tm_portfolio .portfolio_filter .react-tabs__tab-list li.react-tabs__tab--selected {

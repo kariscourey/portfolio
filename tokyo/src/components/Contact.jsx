@@ -41,6 +41,8 @@ const Contact = () => {
             <div className="left">
               <span>Talk to me</span>
               <h3>Contact</h3>
+              <br />
+                <p>I'm quite introverted, though I do love a good conversation. Don't be a stranger!</p>
             </div>
           </div>
         </div>

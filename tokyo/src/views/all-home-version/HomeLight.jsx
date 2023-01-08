@@ -5,7 +5,7 @@ import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import About from "../../components/About";
 import Contact from "../../components/Contact";
 import Home from "../../components/Home";
-import News from "../../components/News";
+import Plaudits from "../../components/Plaudits";
 import Portfolio from "../../components/PortfolioCreative";
 import Resume from "../../components/Resume";
 
@@ -86,10 +86,10 @@ const HomeLight = () => {
                   <Tab>
                     <img
                       className="svg"
-                      src="/assets/img/svg/paper.svg"
+                      src="/assets/img/svg/star.svg"
                       alt="paper"
                     />
-                    <span className="menu_content">News</span>
+                    <span className="menu_content">Plaudits</span>
                   </Tab>
                   <Tab>
                     <img
@@ -159,7 +159,7 @@ const HomeLight = () => {
                 {/* END PORTFOLIO MENU TAB CONTENT */}
 
                 <TabPanel>
-                  <News />
+                  <Plaudits />
                 </TabPanel>
                 {/* END NEWS MENU TAB CONTENT */}
 

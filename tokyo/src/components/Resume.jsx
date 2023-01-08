@@ -13,17 +13,14 @@ const Resume = () => {
               <div className="left">
                 <span>Read all about it</span>
                 <h3>Resume</h3>
+                <br />
+                <p>Extra, extra! Taking you{' '}
+                  <a href="https://drive.google.com/file/d/1Pi0X27mSo45qb_nMMSTYfgDWnv0N9C0d/view?usp=sharing">there</a>...
+                </p>
               </div>
             </div>
           </div>
           {/* END TOKYO_TM_TITLE */}
-
-          <div className="resume_content"
-            data-aos="fade-right"
-            data-aos-duration="1200"
-            data-aos-delay="200">
-            Extra, extra! Taking you <a href="https://drive.google.com/file/d/1Pi0X27mSo45qb_nMMSTYfgDWnv0N9C0d/view?usp=sharing">there</a>...
-          </div>
         </div>
       </SimpleReactLightbox>
     </>

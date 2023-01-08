@@ -4,7 +4,7 @@ import Social from "./Social";
 
 Modal.setAppElement("#root");
 
-const News = () => {
+const Plaudits = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isOpen2, setIsOpen2] = useState(false);
   const [isOpen3, setIsOpen3] = useState(false);
@@ -29,8 +29,12 @@ const News = () => {
         <div className="tokyo_tm_title">
           <div className="title_flex">
             <div className="left">
-              <span>News</span>
-              <h3>Latest News</h3>
+              <span>Read some words</span>
+              <h3>Latest plaudits</h3>
+              <br />
+              <p>The one word I didn't know on an 8th-grade vocab test.{' '}
+              Brush up on your skills{' '}
+                  <a href="https://www.vocabtest.com/middle_school/8th_grade.php">here</a>.</p>
             </div>
           </div>
         </div>
@@ -653,4 +657,4 @@ const News = () => {
   );
 };
 
-export default News;
+export default Plaudits;
