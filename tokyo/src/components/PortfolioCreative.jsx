@@ -861,7 +861,7 @@ const Portfolio = () => {
               <div className="main_details">
                 <div className="textbox">
                   <p>
-                    Developed with Angel Sierra.
+                    Developed with <a href="https://www.linkedin.com/in/angel-sierra-/">Angel Sierra</a>.
                   </p>
                   <p>
                     Automobile-dealership-management solution designed for managing automobile inventory, sales, services, employees, and customers. Supports automobile, sale, service, employee, and customer creation and management.
