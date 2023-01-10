@@ -20,7 +20,7 @@ const Home = () => {
             <h3 className="name">Karis Courey</h3>
             <p className="job">
               Outdoor-loving software engineer dedicated to bettering the lives of
-              as many people as possible and having fun along the way.
+              as many people as possible and having a good time doing it.
             </p>
             {/* END JOB */}
             <Social />
