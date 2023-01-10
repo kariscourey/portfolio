@@ -51,10 +51,11 @@ const Portfolio = () => {
             <Tabs>
               <TabList>
                 <Tab>All</Tab>
-                <Tab>Videos</Tab>
                 <Tab>Key projects</Tab>
+                <Tab>Videos</Tab>
               </TabList>
               {/* END TABLIST */}
+
               <div className="list_wrapper">
                 <TabPanel>
                   <ul className="portfolio_list">
@@ -62,36 +63,6 @@ const Portfolio = () => {
                       data-aos="fade-right"
                       data-aos-duration="1200"
                       data-aos-delay="100">
-                      <div className="inner">
-                        <div className="entry tokyo_tm_portfolio_animation_wrap">
-                          <img
-                            src="assets/img/portfolio/inverse.jpg"
-                            alt="Youtube"
-                            data-tip
-                            data-for="youtube"
-                            onClick={() => setOpen(true)}
-                          />
-                          <ReactTooltip
-                            id="youtube"
-                            place="bottom"
-                            type="light"
-                            effect="float"
-                            className="tooltip-wrapper"
-                          >
-                            <div>
-                              <h5>Watch me teach!</h5>
-                              <span>Become an inversing-2x2-matrices pro in 2 min.</span>
-                            </div>
-                          </ReactTooltip>
-                        </div>
-                      </div>
-                    </li>
-                    {/* END YOUTUBE */}
-                    <li
-                      data-aos="fade-right"
-                      data-aos-duration="1200"
-                      data-aos-delay="100"
-                    >
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <img
@@ -154,7 +125,163 @@ const Portfolio = () => {
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <img
-                            src="assets/img/portfolio/task-3.jpg"
+                            src="assets/img/portfolio/task-7.jpg"
+                            alt="Key projects"
+                            data-tip
+                            data-for="detail3"
+                            onClick={toggleModalFive}
+                          />
+
+                          <ReactTooltip
+                            id="detail3"
+                            place="bottom"
+                            type="light"
+                            effect="float"
+                            className="tooltip-wrapper"
+                          >
+                            <div>
+                              <h5>Tasker</h5>
+                              <span>Cross-company task-management solution featuring Django and a templated front end.</span>
+                            </div>
+                          </ReactTooltip>
+                        </div>
+                      </div>
+                    </li>
+                    {/* END DETAILS */}
+                    <li
+                      data-aos="fade-right"
+                      data-aos-duration="1200"
+                      data-aos-delay="200"
+                    >
+                      <div className="inner">
+                        <div className="entry tokyo_tm_portfolio_animation_wrap">
+                          <img
+                            src="assets/img/portfolio/auto-2.jpg"
+                            alt="Key projects"
+                            data-tip
+                            data-for="detail4"
+                            onClick={toggleModalSix}
+                          />
+
+                          <ReactTooltip
+                            id="detail4"
+                            place="bottom"
+                            type="light"
+                            effect="float"
+                            className="tooltip-wrapper"
+                          >
+                            <div>
+                              <h5>AutoAuto</h5>
+                              <span>Automobile-dealership-management solution featuring Django, React, domain-driven design, microservices, and RESTful APIs.</span>
+                            </div>
+                          </ReactTooltip>
+                        </div>
+                      </div>
+                    </li>
+                    {/* END DETAILS */}
+                    <li
+                      data-aos="fade-right"
+                      data-aos-duration="1200"
+                      data-aos-delay="100">
+                      <div className="inner">
+                        <div className="entry tokyo_tm_portfolio_animation_wrap">
+                          <img
+                            src="assets/img/portfolio/inverse.jpg"
+                            alt="Youtube"
+                            data-tip
+                            data-for="youtube"
+                            onClick={() => setOpen(true)}
+                          />
+                          <ReactTooltip
+                            id="youtube"
+                            place="bottom"
+                            type="light"
+                            effect="float"
+                            className="tooltip-wrapper"
+                          >
+                            <div>
+                              <h5>Watch me teach!</h5>
+                              <span>Become an inversing-2x2-matrices pro in 2 min.</span>
+                            </div>
+                          </ReactTooltip>
+                        </div>
+                      </div>
+                    </li>
+                    {/* END YOUTUBE */}
+                  </ul>
+                  {/* END PORTFOLIO LIST */}
+                </TabPanel>
+                {/* END ALL PORTFOLIO GALLERY */}
+
+                <TabPanel>
+                  <ul className="portfolio_list">
+                    <li
+                      data-aos="fade-right"
+                      data-aos-duration="1200"
+                      data-aos-delay="100">
+                      <div className="inner">
+                        <div className="entry tokyo_tm_portfolio_animation_wrap">
+                          <img
+                            src="assets/img/portfolio/cogo-1.jpg"
+                            alt="Key projects"
+                            data-tip
+                            data-for="detail"
+                            onClick={toggleModalThree}
+                          />
+                          <ReactTooltip
+                            id="detail"
+                            place="bottom"
+                            type="light"
+                            effect="float"
+                            className="tooltip-wrapper"
+                          >
+                            <div>
+                              <h5>Conference GO</h5>
+                              <span>Conference-management solution featuring Django, React, domain-driven design, microservices, and data interactions with RESTful APIs.</span>
+                            </div>
+                          </ReactTooltip>
+                        </div>
+                      </div>
+                    </li>
+                    {/* END DETAILS */}
+                    <li
+                      data-aos="fade-right"
+                      data-aos-duration="1200"
+                      data-aos-delay="200">
+                      <div className="inner">
+                        <div className="entry tokyo_tm_portfolio_animation_wrap">
+                          <img
+                            src="assets/img/portfolio/hot-4b.jpg"
+                            alt="Key projects"
+                            data-tip
+                            data-for="detail2"
+                            onClick={toggleModalFour}
+                          />
+                          <ReactTooltip
+                            id="detail2"
+                            place="bottom"
+                            type="light"
+                            effect="float"
+                            className="tooltip-wrapper"
+                          >
+                            <div>
+                              <h5>Hot Stocks</h5>
+                              <span>Social-media-app-inspired stock portfolio and news management solution featuring FastAPI, React Redux, PostgreSQL, and RESTful APIs.</span>
+                            </div>
+                          </ReactTooltip>
+                        </div>
+                      </div>
+                    </li>
+                    {/* END DETAILS */}
+                    <li
+                      data-aos="fade-right"
+                      data-aos-duration="1200"
+                      data-aos-delay="200"
+                    >
+                      <div className="inner">
+                        <div className="entry tokyo_tm_portfolio_animation_wrap">
+                          <img
+                            src="assets/img/portfolio/task-7.jpg"
                             alt="Key projects"
                             data-tip
                             data-for="detail3"
@@ -209,9 +336,8 @@ const Portfolio = () => {
                     </li>
                     {/* END DETAILS */}
                   </ul>
-                  {/* END PORTFOLIO LIST */}
+                  {/* END DETAILS GALLERY */}
                 </TabPanel>
-                {/* END ALL PORTFOLIO GALLERY */}
 
                 <TabPanel>
                   <ul className="portfolio_list">
@@ -246,69 +372,6 @@ const Portfolio = () => {
                 </TabPanel>
                 {/* END YOUTUBE VIDEO */}
 
-                <TabPanel>
-                  <ul className="portfolio_list">
-                    <li data-aos="fade-right" data-aos-duration="1200">
-                      <div className="inner">
-                        <div className="entry tokyo_tm_portfolio_animation_wrap">
-                          <img
-                            src="assets/img/portfolio/cogo-6.jpg"
-                            alt="Key projects"
-                            data-tip
-                            data-for="detail"
-                            onClick={toggleModalThree}
-                          />
-
-                          <ReactTooltip
-                            id="detail"
-                            place="bottom"
-                            type="light"
-                            effect="float"
-                            className="tooltip-wrapper"
-                          >
-                            <div>
-                              <h5>Selena Gomez</h5>
-                              <span>Key projects</span>
-                            </div>
-                          </ReactTooltip>
-                        </div>
-                      </div>
-                    </li>
-                    {/* END DETAILS */}
-                    <li
-                      data-aos="fade-right"
-                      data-aos-duration="1200"
-                      data-aos-delay="100"
-                    >
-                      <div className="inner">
-                        <div className="entry tokyo_tm_portfolio_animation_wrap">
-                          <img
-                            src="assets/img/portfolio/hot-2.jpg"
-                            alt="Key projects"
-                            data-tip
-                            data-for="detail2"
-                            onClick={toggleModalFour}
-                          />
-
-                          <ReactTooltip
-                            id="detail2"
-                            place="bottom"
-                            type="light"
-                            effect="float"
-                            className="tooltip-wrapper"
-                          >
-                            <div>
-                              <h5>Hot Stocks</h5>
-                              <span>Cloud-Based Web Application</span>
-                            </div>
-                          </ReactTooltip>
-                        </div>
-                      </div>
-                    </li>
-                    {/* END DETAILS */}
-                  </ul>
-                  {/* END DETAILS GALLERY */}
-                </TabPanel>
                 {/* END CREATIVE PORTFOLIO GALLERY */}
               </div>
               {/* END LIST WRAPPER */}
@@ -354,7 +417,7 @@ const Portfolio = () => {
               {/* END IMAGE */}
               <div className="portfolio_main_title">
                 <h3>Conference GO</h3>
-                <span>Web Application</span>
+                <span>Microservices Web Application</span>
               </div>
               {/* END portfolio_main_title */}
               <div className="main_details">
@@ -688,7 +751,7 @@ const Portfolio = () => {
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/portfolio/task-3.jpg)",
+                    backgroundImage: "url(assets/img/portfolio/task-7.jpg)",
                   }}
                 ></div>
               </div>
@@ -855,7 +918,7 @@ const Portfolio = () => {
               {/* END IMAGE */}
               <div className="portfolio_main_title">
                 <h3>AutoAuto</h3>
-                <span>Web Application</span>
+                <span>Microservices Web Application</span>
               </div>
               {/* END portfolio_main_title */}
               <div className="main_details">
