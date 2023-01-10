@@ -34,7 +34,7 @@ const Plaudits = () => {
               <span>Read some words</span>
               <h3>Latest plaudits</h3>
               <br />
-              <p>The one word I didn't know on an 8th-grade vocab test.{' '}
+              <p>A word I didn't know on an 8th-grade vocab test. Who knew I'd use it one day?{' '}
               Brush up on your skills{' '}
                   <a href="https://www.vocabtest.com/middle_school/8th_grade.php">here</a>.</p>
             </div>
