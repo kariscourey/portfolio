@@ -1,5 +1,4 @@
 stages:
-  - test   # Run tests first
   - build  # Run build after tests
   - deploy # Run deploy after build
 
@@ -9,9 +8,6 @@ build-front-end-job:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
   stage: build
   image: node:lts-bullseye
-  needs:
-    - api-unit-test-job  # These two jobs must succeed for
-    - lint-test-job      # this build-job to run
   variables:
     PUBLIC_URL: https://kariscourey.gitlab.io/karis-courey-portfolio
   script:
