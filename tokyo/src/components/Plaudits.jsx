@@ -300,9 +300,9 @@ const Plaudit = (props) => {
           {title}
         </h3>
         <div className="tokyo_tm_read_more">
-          <a onClick={toggleModal}>
+          <button onClick={toggleModal}>
             <span>Read More</span>
-          </a>
+          </button>
         </div>
         {/* END READ MORE BUTTON */}
       </div>
