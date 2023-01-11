@@ -1,0 +1,41 @@
+stages:
+  - test   # Run tests first
+  - build  # Run build after tests
+  - deploy # Run deploy after build
+
+build-front-end-job:
+  rules:
+    # Only run if pushing to the main branch
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  stage: build
+  image: node:lts-bullseye
+  needs:
+    - api-unit-test-job  # These two jobs must succeed for
+    - lint-test-job      # this build-job to run
+  variables:
+    PUBLIC_URL: https://kariscourey.gitlab.io/karis-courey-portfolio
+  script:
+    - cd ghi
+    - npm install
+    - npm run build  # Build the React application
+    - cp build/index.html build/404.html  # Make this a SPA
+  artifacts:
+    paths:
+      - ghi/build/  # Save all of the files in the build path
+
+pages:  # THIS STEP MUST BE NAME PAGES
+  stage: deploy
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  dependencies:
+    - build-front-end-job
+  needs:
+    - build-front-end-job
+  script:
+     # THE FIRST PART OF THIS COMMAND MUST BE THE DIRECTORY
+     # THAT YOU cd INTO TO BUILD IT PLUS THE build/ AT THE
+     # END
+    - mv tokyo/build/ public
+  artifacts:
+    paths:
+      - public
