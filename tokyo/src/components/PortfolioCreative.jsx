@@ -40,8 +40,9 @@ const Portfolio = () => {
                 <h3>Portfolio</h3>
                 <br />
                 <p>For an exhaustive list of my projects, check out my{' '}
-                  <a href="https://gitlab.com/kariscourey">GitLab</a> and{' '}
-                  <a href="https://github.com/kariscourey">GitHub</a>.</p>
+                  <a href="https://github.com/kariscourey">GitHub</a> and{' '}
+                  <a href="https://gitlab.com/kariscourey">GitLab</a>.
+                </p>
               </div>
             </div>
           </div>

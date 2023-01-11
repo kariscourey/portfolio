@@ -1,7 +1,5 @@
 @charset "utf-8";
 
-// TODO
-// fix links, icons
 
 body.dark ::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
@@ -143,7 +141,7 @@ body.dark .tokyo_tm_home .social li a {
   }
 }
 
-body.dark .tokyo_tm_all_wrap .leftpart img {
+body.dark .tokyo_tm_all_wrap .leftpart .menu img {
   filter: invert(1);
 }
 
@@ -260,7 +258,11 @@ body.dark .tokyo_tm_news ul li .details .date a {
 }
 
 body.dark .tokyo_tm_news ul li .details .date a:hover {
-  color: #fff;
+  color: #ff9900;
+}
+
+body.dark .tokyo_tm_modalbox_news .date a:hover {
+  color: #ff9900;
 }
 
 body.dark .tokyo_tm_contact .fields ul li input {
