@@ -1,6 +1,6 @@
 services:
   ghi:
-    image: node:lts-bullseye
+    image: node:16.11.1-bullseye
     command: /bin/bash run.sh
     working_dir: /app
     volumes:
@@ -9,5 +9,4 @@ services:
         - "3000:3000"
     environment:
         NODE_ENV: development
-        NODE_OPTIONS: "--openssl-legacy-provider"
         HOST: "0.0.0.0"

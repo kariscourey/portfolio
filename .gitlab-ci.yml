@@ -7,7 +7,7 @@ build-front-end-job:
     # Only run if pushing to the main branch
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
   stage: build
-  image: node:lts-bullseye
+  image: node:16.11.1-bullseye
   variables:
     PUBLIC_URL: https://kariscourey.gitlab.io/karis-courey-portfolio
   script:
