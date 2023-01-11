@@ -11,13 +11,13 @@ build-front-end-job:
   variables:
     PUBLIC_URL: https://kariscourey.gitlab.io/karis-courey-portfolio
   script:
-    - cd ghi
+    - cd tokyo
     - npm install
     - npm run build  # Build the React application
     - cp build/index.html build/404.html  # Make this a SPA
   artifacts:
     paths:
-      - ghi/build/  # Save all of the files in the build path
+      - tokyo/build/  # Save all of the files in the build path
 
 pages:  # THIS STEP MUST BE NAME PAGES
   stage: deploy
