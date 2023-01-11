@@ -126,7 +126,7 @@ const recommendations = [
     link: 'https://www.linkedin.com/in/patrickjamescerutti/',
     name: 'Patrick Cerutti',
     date: 'Dec 19, 2022',
-    title: 'With her help I was able to solve the challenge related to my project',
+    title: 'With her help I was able to solve the challenge',
     desc: [
       "Karis was someone I personally sought out to help me solve a problem on a project we were completing while in a Software Engineering bootcamp. My initial thoughts of Karis were, how impressed I was of her knowledge when solving coding challenges and her ability to think outside the box when solving those problems. She was a great team player and with her help I was able to solve the challenge related to my project. She would be a great addition to any Software Engineering team."
     ]
@@ -184,7 +184,7 @@ const recommendations = [
     link: 'https://www.linkedin.com/in/matt-sabo/',
     name: 'Matthew Sabo',
     date: 'Dec 16, 2022',
-    title: 'Eager to learn and took on extra challenges whenever they were offered',
+    title: 'Eager to learn and took on extra challenges',
     desc: [
       "I had the pleasure of working with Karis during her time at our software engineer bootcamp. From the start, it was clear that Karis was an exceptional student - she consistently demonstrated a strong aptitude for problem-solving and a natural curiosity about technology.",
       "Throughout the course, Karis consistently impressed me with her ability to quickly grasp new concepts and apply them to her work. She was always eager to learn and took on extra challenges whenever they were offered. Her work was consistently of a high quality and she was able to complete tasks efficiently and effectively.",
@@ -205,7 +205,7 @@ const recommendations = [
     link: 'https://www.linkedin.com/in/roman-jonathan/',
     name: 'Jonathan Roman',
     date: 'Dec 16, 2022',
-    title: 'Able to explain concepts to both technical and non-technical audiences',
+    title: 'Able to explain concepts to technical, non-technical audiences',
     desc: [
       "During our software engineering program, Karis demonstrated consistent dedication and ability to learn new technical skills while applying them to projects. In addition to her strong technical abilities, she is able to explain these complex concepts in a public presentation setting to both technical and non-technical audiences. With these qualities, I believe any team would be lucky to have Karis joining them."
     ]
@@ -214,7 +214,7 @@ const recommendations = [
     link: 'https://www.linkedin.com/in/eli-gilead/',
     name: 'Elijah Gilead',
     date: 'Dec 16, 2022',
-    title: 'A great team player and is able to work effectively with others',
+    title: 'A great team player and is able to work effectively with others and take direction',
     desc: [
       "Karis has a strong foundation in computer science principles and is skilled in multiple programming languages, including Python 3 and JavaScript. She is a diligent and proactive learner, always seeking out opportunities to improve her skills and broaden her knowledge base.",
       "In addition to her technical expertise, Karis is a great team player and is able to work effectively with others. She is able to take direction well and is always willing to lend a helping hand to her colleagues.",
