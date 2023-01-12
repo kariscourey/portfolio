@@ -205,13 +205,13 @@ body.dark .tokyo_tm_about .description .right>ul>li a {
 }
 
 body.dark .tokyo_tm_about .about_image .credit a {
-  color: #bbb;
+  color: #fff;
   position: relative;
   overflow: hidden;
   text-decoration: none;
 
   &:hover {
-    color: #fff;
+    color: #ff9900;
   }
 }
 
@@ -270,6 +270,10 @@ body.dark .tokyo_tm_news ul li .details .date a {
 
 body.dark .tokyo_tm_news ul li .details .date a:hover {
   color: #ff9900;
+}
+
+body.dark .tokyo_tm_modalbox_news .date a {
+  color: #fff;
 }
 
 body.dark .tokyo_tm_modalbox_news .date a:hover {
