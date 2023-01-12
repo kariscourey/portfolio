@@ -40,8 +40,8 @@ const Portfolio = () => {
                 <h3>Portfolio</h3>
                 <br />
                 <p>For an exhaustive list of my projects, check out my{' '}
-                  <a href="https://github.com/kariscourey" target="_blank">GitHub</a> and{' '}
-                  <a href="https://gitlab.com/kariscourey" target="_blank">GitLab</a>.
+                  <a href="https://github.com/kariscourey" target="_blank" rel="noreferrer">GitHub</a> and{' '}
+                  <a href="https://gitlab.com/kariscourey" target="_blank" rel="noreferrer">GitLab</a>.
                 </p>
               </div>
             </div>
@@ -555,9 +555,9 @@ const Portfolio = () => {
                 <div className="textbox">
                   <p>
                     Developed with{' '}
-                    <a href="https://www.linkedin.com/in/micheline-doughlin-ba101678/" target="_blank">Micheline Doughlin</a>,{' '}
-                    <a href="https://www.linkedin.com/in/bensjostrom/" target="_blank">Ben Sjostrom</a>, and{' '}
-                    <a href="https://www.linkedin.com/in/york-shaw/" target="_blank">York Shaw</a>.
+                    <a href="https://www.linkedin.com/in/micheline-doughlin-ba101678/" target="_blank" rel="noreferrer">Micheline Doughlin</a>,{' '}
+                    <a href="https://www.linkedin.com/in/bensjostrom/" target="_blank" rel="noreferrer">Ben Sjostrom</a>, and{' '}
+                    <a href="https://www.linkedin.com/in/york-shaw/" target="_blank" rel="noreferrer">York Shaw</a>.
                   </p>
                   <p>
                     Modern, social-media-app-inspired stock portfolio solution designed for evaluating live stock and related news data, managing a portfolio, and saving data of interest.
@@ -566,8 +566,8 @@ const Portfolio = () => {
                     Features FastAPI, React Redux, PostgreSQL, and data interactions with RESTful APIs.
                   </p>
                   <p>
-                    <a href="https://igneous-rocks.gitlab.io/hot-stocks/" target="_blank">Front end</a> deployed with GitLab Pages.{' '}
-                    <a href="https://hot-stocks.onrender.com" target="_blank">Back end</a> deployed with Render.
+                    <a href="https://igneous-rocks.gitlab.io/hot-stocks/" target="_blank" rel="noreferrer">Front end</a> deployed with GitLab Pages.{' '}
+                    <a href="https://hot-stocks.onrender.com" target="_blank" rel="noreferrer">Back end</a> deployed with Render.
                   </p>
                   <p>
                     For young individuals who are interested in investing in stocks and growing their portfolio.
@@ -925,7 +925,7 @@ const Portfolio = () => {
               <div className="main_details">
                 <div className="textbox">
                   <p>
-                    Developed with <a href="https://www.linkedin.com/in/angel-sierra-/" target="_blank">Angel Sierra</a>.
+                    Developed with <a href="https://www.linkedin.com/in/angel-sierra-/" target="_blank" rel="noreferrer">Angel Sierra</a>.
                   </p>
                   <p>
                     Automobile-dealership-management solution designed for managing automobile inventory, sales, services, employees, and customers. Supports automobile, sale, service, employee, and customer creation and management.

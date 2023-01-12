@@ -17,7 +17,7 @@ const About = () => {
         <div className="about_image ">
           <img src="assets/img/slider/2.jpg" alt="about" />
           <p className="credit">
-            Photos courtesy of <a href="https://lightroom.adobe.com/u/nathanmangost" target="_blank">Nathan Wells</a>.
+            Photos courtesy of <a href="https://lightroom.adobe.com/u/nathanmangost" target="_blank" rel="noreferrer">Nathan Wells</a>.
           </p>
         </div>
         {/* END ABOUT IMAGE */}
@@ -41,7 +41,7 @@ const About = () => {
               <ul>
                 <li>
                   <p>
-                    <span>LinkedIn:</span><a href="https://linkedin.com/in/kariscourey" target="_blank">Karis Courey</a>
+                    <span>LinkedIn:</span><a href="https://linkedin.com/in/kariscourey" target="_blank" rel="noreferrer">Karis Courey</a>
                   </p>
                 </li>
                 <li>
@@ -52,17 +52,17 @@ const About = () => {
                 </li>
                 <li>
                   <p>
-                    <span>Grad:</span><a href="https://www.cc.gatech.edu/degree-programs/master-science-computer-science" target="_blank">M.S., Comp. Sci., candidate</a>
+                    <span>Grad:</span><a href="https://www.cc.gatech.edu/degree-programs/master-science-computer-science" target="_blank" rel="noreferrer">M.S., Comp. Sci., candidate</a>
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span>Bootcamp:</span><a href="https://www.galvanize.com/hack-reactor/beginner/full-time-bootcamp/" target="_blank">Hack Reactor's Immersive</a>
+                    <span>Bootcamp:</span><a href="https://www.galvanize.com/hack-reactor/beginner/full-time-bootcamp/" target="_blank" rel="noreferrer">Hack Reactor's Immersive</a>
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span>Undergrad:</span><a href="https://drive.google.com/file/d/1mw_wpcI1iS7NAmOrqpj8U4oh3HBZZfNA/view?usp=sharing" target="_blank">B.S., Chem. Engineering</a>
+                    <span>Undergrad:</span><a href="https://drive.google.com/file/d/1mw_wpcI1iS7NAmOrqpj8U4oh3HBZZfNA/view?usp=sharing" target="_blank" rel="noreferrer">B.S., Chem. Engineering</a>
                   </p>
                 </li>
               </ul>
