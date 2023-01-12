@@ -14,8 +14,8 @@ const Resume = () => {
                 <span>Read all about it</span>
                 <h3>Resume</h3>
                 <br />
-                <p>Extra, extra! Taking you{' '}
-                  <a href="https://drive.google.com/file/d/1Pi0X27mSo45qb_nMMSTYfgDWnv0N9C0d/view?usp=sharing" target="_blank" rel="noreferrer">there</a>...
+                <p>Extra, extra! Check it out{' '}
+                  <a href="https://drive.google.com/file/d/1Pi0X27mSo45qb_nMMSTYfgDWnv0N9C0d/view?usp=sharing" target="_blank" rel="noreferrer">here</a>.
                 </p>
               </div>
             </div>
