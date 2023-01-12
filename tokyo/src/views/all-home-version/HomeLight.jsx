@@ -52,7 +52,7 @@ const HomeLight = () => {
             <div className="leftpart_inner">
               <div className="logo">
                 <Link className="navbar-brand" to="/">
-                  <img src="/assets/img/logo/kc.png" alt="brand" />
+                  <img src="assets/img/logo/kc.png" alt="brand" />
                 </Link>
               </div>
               {/* END LOGO */}
@@ -62,7 +62,7 @@ const HomeLight = () => {
                   <Tab>
                     <img
                       className="svg"
-                      src="/assets/img/svg/home-run.svg"
+                      src="assets/img/svg/home-run.svg"
                       alt="homerun"
                     />
                     <span className="menu_content">Home</span>
@@ -70,7 +70,7 @@ const HomeLight = () => {
                   <Tab>
                     <img
                       className="svg"
-                      src="/assets/img/svg/avatar.svg"
+                      src="assets/img/svg/avatar.svg"
                       alt="avatar"
                     />
                     <span className="menu_content">About</span>
@@ -78,7 +78,7 @@ const HomeLight = () => {
                   <Tab>
                     <img
                       className="svg"
-                      src="/assets/img/svg/briefcase.svg"
+                      src="assets/img/svg/briefcase.svg"
                       alt="briefcase"
                     />
                     <span className="menu_content">Portfolio</span>
@@ -86,7 +86,7 @@ const HomeLight = () => {
                   <Tab>
                     <img
                       className="svg"
-                      src="/assets/img/svg/star.svg"
+                      src="assets/img/svg/star.svg"
                       alt="paper"
                     />
                     <span className="menu_content">Plaudits</span>
@@ -94,7 +94,7 @@ const HomeLight = () => {
                   <Tab>
                     <img
                       className="svg"
-                      src="/assets/img/svg/mail.svg"
+                      src="assets/img/svg/mail.svg"
                       alt="mail"
                     />
                     <span className="menu_content">Contact</span>
@@ -102,7 +102,7 @@ const HomeLight = () => {
                   <Tab>
                     <img
                       className="svg"
-                      src="/assets/img/svg/resume.svg"
+                      src="assets/img/svg/resume.svg"
                       alt="resume"
                     />
                     <span className="menu_content"><a href="https://drive.google.com/file/d/1Pi0X27mSo45qb_nMMSTYfgDWnv0N9C0d/view?usp=sharing">Resume</a></span>

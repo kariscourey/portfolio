@@ -8,7 +8,7 @@ const NotFound = () => {
         <div className="leftpart_inner">
           <div className="logo">
             <Link className="navbar-brand" to="/">
-              <img src="/assets/img/logo/kc.png" alt="brand" />
+              <img src="assets/img/logo/kc.png" alt="brand" />
             </Link>
           </div>
           {/* END LOGO */}

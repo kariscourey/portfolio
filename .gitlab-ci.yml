@@ -35,4 +35,3 @@ pages:  # THIS STEP MUST BE NAME PAGES
   artifacts:
     paths:
       - public
-      - public/assets
