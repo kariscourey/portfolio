@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { FaMoon, FaSun } from "react-icons/fa";
-import { Link } from "react-router-dom";
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import About from "../../components/About";
 import Contact from "../../components/Contact";
@@ -51,9 +50,9 @@ const HomeLight = () => {
           <div className="leftpart">
             <div className="leftpart_inner">
               <div className="logo">
-                <Link className="navbar-brand" to="/">
+                <div className="navbar-brand">
                   <img src="assets/img/logo/kc.png" alt="brand" />
-                </Link>
+                </div>
               </div>
               {/* END LOGO */}
 

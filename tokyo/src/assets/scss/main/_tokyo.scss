@@ -628,6 +628,7 @@ h6 {
     overflow: hidden;
     text-decoration: none;
     &:hover {
+      color: #ff9900;
       transition: all 0.3s ease;
       letter-spacing: 1.2px;
     }
