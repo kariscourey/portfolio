@@ -19,7 +19,7 @@ const Project = (props) => {
             <a href={`${GitSites[1].link}/${props.name}`} target="_blank" rel="noreferrer">
               <img
                 className="svg"
-                src={`/assets/img/svg/social/${GitSites[1].iconName}.svg`}
+                src={`assets/img/svg/social/${GitSites[1].iconName}.svg`}
                 alt="social"
               ></img>
             </a>
@@ -32,7 +32,7 @@ const Project = (props) => {
               <a href={`${val.link}/${props.name}`} target="_blank" rel="noreferrer">
                 <img
                   className="svg"
-                  src={`/assets/img/svg/social/${val.iconName}.svg`}
+                  src={`assets/img/svg/social/${val.iconName}.svg`}
                   alt="social"
                 ></img>
               </a>
