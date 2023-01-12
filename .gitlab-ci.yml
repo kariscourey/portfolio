@@ -9,7 +9,7 @@ build-front-end-job:
   stage: build
   image: node:16.11.1-bullseye
   variables:
-    PUBLIC_URL: https://kariscourey.gitlab.io/portfolio
+    PUBLIC_URL: https://kariscourey.gitlab.io/karis-courey-portfolio
   script:
     - cd tokyo
     - npm install
