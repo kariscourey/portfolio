@@ -14,13 +14,13 @@ const NotFound = () => {
           {/* END LOGO */}
           <div className="copyright">
             <p>
-              &copy; 2021 Tokyo <br /> Created by
+              &copy; {new Date().getFullYear()}
               <a
-                href="https://themeforest.net/user/ib-themes"
+                href="https://linkedin.com/in/kariscourey"
                 target="_blank"
                 rel="noreferrer"
               >
-                Ib-Themes
+                Karis Courey
               </a>
             </p>
           </div>

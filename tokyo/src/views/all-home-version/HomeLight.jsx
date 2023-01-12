@@ -105,7 +105,7 @@ const HomeLight = () => {
                       src="assets/img/svg/resume.svg"
                       alt="resume"
                     />
-                    <span className="menu_content"><a href="https://drive.google.com/file/d/1Pi0X27mSo45qb_nMMSTYfgDWnv0N9C0d/view?usp=sharing">Resume</a></span>
+                    <span className="menu_content"><a href="https://drive.google.com/file/d/1Pi0X27mSo45qb_nMMSTYfgDWnv0N9C0d/view?usp=sharing" target="_blank">Resume</a></span>
                   </Tab>
                 </ul>
               </div>

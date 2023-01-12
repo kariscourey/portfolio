@@ -290,7 +290,7 @@ const Plaudit = (props) => {
       <div className="details">
         <div className="extra">
           <p className="date">
-            By <a href={link}>{name}</a>
+            By <a href={link} target="_blank">{name}</a>
             <span>{date}</span>
           </p>
         </div>
@@ -327,7 +327,7 @@ const Plaudit = (props) => {
               <div className="details">
                 <div className="extra">
                   <p className="date">
-                    By <a href={link}>{name} </a>
+                    By <a href={link} target="_blank">{name} </a>
                     <span>{date}</span>
                   </p>
                 </div>
@@ -387,7 +387,7 @@ const Plaudits = () => {
               <br />
               <p>A word I didn't know on an 8th-grade vocab test. Who knew I'd use it one day?{' '}
                 Brush up on your skills{' '}
-                <a href="https://www.vocabtest.com/middle_school/8th_grade.php">here</a>.</p>
+                <a href="https://www.vocabtest.com/middle_school/8th_grade.php" target="_blank">here</a>.</p>
             </div>
           </div>
         </div>
