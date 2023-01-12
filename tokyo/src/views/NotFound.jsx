@@ -39,7 +39,7 @@ const NotFound = () => {
                   <h3>Uh oh... {':('}</h3>
                   <p>Looks like you're lost, friend.</p>
                   <Link to="/" className="ib-button">
-                    Go to Home
+                    Go home
                   </Link>
                 </div>
               </div>
@@ -52,13 +52,13 @@ const NotFound = () => {
       <footer className="footer-wrapper">
         <div className="copyright">
           <p>
-            &copy; 2021 Tokyo Created by
+            &copy; {new Date().getFullYear()}
             <a
-              href="https://themeforest.net/user/ib-themes"
+              href="https://linkedin.com/in/kariscourey"
               target="_blank"
               rel="noreferrer"
             >
-              Ib-Themes
+              Karis Courey
             </a>
           </p>
         </div>

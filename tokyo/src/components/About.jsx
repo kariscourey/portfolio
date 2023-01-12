@@ -17,7 +17,7 @@ const About = () => {
         <div className="about_image ">
           <img src="assets/img/slider/2.jpg" alt="about" />
           <p className="credit">
-            Photos courtesy of <a href="https://lightroom.adobe.com/u/nathanmangost" target="_blank" rel="noreferrer">Nathan Wells</a>.
+            Photos courtesy of <a href="https://lightroom.adobe.com/u/nathanmangost" target="_blank" rel="noreferrer">Nathan Mangosteen</a>.
           </p>
         </div>
         {/* END ABOUT IMAGE */}
