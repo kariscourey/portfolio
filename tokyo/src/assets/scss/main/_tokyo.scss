@@ -619,6 +619,21 @@ h6 {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.12);
 }
 
+.tokyo_tm_about .about_image .credit {
+  font-size: 12px;
+  font-style: italic;
+  a {
+    color: #000;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    &:hover {
+      transition: all 0.3s ease;
+      letter-spacing: 1.2px;
+    }
+  }
+}
+
 .tokyo_tm_about .description {
   width: 100%;
   height: auto;

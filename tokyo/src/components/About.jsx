@@ -16,10 +16,10 @@ const About = () => {
       <div className="tokyo_tm_about">
         <div className="about_image ">
           <img src="assets/img/slider/2.jpg" alt="about" />
+          <p className="credit">
+            Photos courtesy of <a href="https://lightroom.adobe.com/u/nathanmangost">Nathan Wells</a>.
+          </p>
         </div>
-        {/* <div className="o-video">
-          <iframe src="https://www.youtube.com/embed/0yW7w8F2TVA"></iframe>
-        </div> */}
         {/* END ABOUT IMAGE */}
         <div className="description">
           <h3 className="name">Karis Courey</h3>

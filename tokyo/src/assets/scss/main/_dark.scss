@@ -204,6 +204,17 @@ body.dark .tokyo_tm_about .description .right>ul>li a {
   color: #bbb;
 }
 
+body.dark .tokyo_tm_about .about_image .credit a {
+  color: #bbb;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
 body.dark .tokyo_tm_about .description .right>ul>li a:hover {
   color: #fff;
 }
