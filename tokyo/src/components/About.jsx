@@ -306,7 +306,7 @@ const About = () => {
                 <ul>
                   <li>
                     <div className="list_inner">
-                      <h3>86+</h3>
+                      <h3>90+</h3>
                       <span>Projects completed</span>
                     </div>
                   </li>
