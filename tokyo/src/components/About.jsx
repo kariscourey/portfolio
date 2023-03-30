@@ -115,7 +115,7 @@ const About = () => {
                       </div>
                     </div>
 
-                    <div className="progress_inner" data-value="80">
+                    <div className="progress_inner" data-value="90">
                       <span>
                         <span className="label">JavaScript</span>
                         <span className="number">90%</span>
@@ -131,7 +131,7 @@ const About = () => {
                     </div>
 
 
-                    <div className="progress_inner" data-value="90">
+                    <div className="progress_inner" data-value="80">
                       <span>
                         <span className="label">SQL</span>
                         <span className="number">80%</span>
@@ -147,16 +147,16 @@ const About = () => {
                     </div>
 
 
-                    <div className="progress_inner" data-value="80">
+                    <div className="progress_inner" data-value="65">
                       <span>
                         <span className="label">C</span>
-                        <span className="number">40%</span>
+                        <span className="number">65%</span>
                       </span>
                       <div className="background">
                         <div className="bar">
                           <div
                             className="bar_in"
-                            style={{ width: 40 + "%" }}
+                            style={{ width: 65 + "%" }}
                           ></div>
                         </div>
                       </div>
@@ -180,7 +180,23 @@ const About = () => {
                   </div>
                   {/* END TITLE */}
                   <div className="tokyo_progress">
-                    <div className="progress_inner" data-value="95">
+                    <div className="progress_inner" data-value="60">
+                      <span>
+                        <span className="label">C++</span>
+                        <span className="number">60%</span>
+                      </span>
+                      <div className="background">
+                        <div className="bar">
+                          <div
+                            className="bar_in"
+                            style={{ width: 60 + "%" }}
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+
+                  <div className="tokyo_progress">
+                    <div className="progress_inner" data-value="80">
                       <span>
                         <span className="label">HTML</span>
                         <span className="number">80%</span>
@@ -195,7 +211,7 @@ const About = () => {
                       </div>
                     </div>
 
-                    <div className="progress_inner" data-value="90">
+                    <div className="progress_inner" data-value="70">
                       <span>
                         <span className="label">CSS</span>
                         <span className="number">70%</span>
@@ -211,7 +227,7 @@ const About = () => {
                     </div>
 
 
-                    <div className="progress_inner" data-value="90">
+                    <div className="progress_inner" data-value="95">
                       <span>
                         <span className="label">VBA</span>
                         <span className="number">95%</span>
@@ -227,7 +243,7 @@ const About = () => {
                     </div>
 
 
-                    <div className="progress_inner" data-value="90">
+                    <div className="progress_inner" data-value="40">
                       <span>
                         <span className="label">C#</span>
                         <span className="number">40%</span>
@@ -244,7 +260,7 @@ const About = () => {
 
 
 
-                    <div className="progress_inner" data-value="90">
+                    <div className="progress_inner" data-value="40">
                       <span>
                         <span className="label">CAML</span>
                         <span className="number">40%</span>
