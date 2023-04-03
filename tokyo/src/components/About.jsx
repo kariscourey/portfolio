@@ -290,68 +290,68 @@ const About = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
 
+                  </div>
+                  {/* END TOKYO PROGRESS */}
                 </div>
-                {/* END TOKYO PROGRESS */}
+                {/* END RIGHT */}
               </div>
-              {/* END RIGHT */}
-            </div>
-            {/* END MYBOX */}
+              {/* END MYBOX */}
 
-            <div className="counter">
-              <div className="about_title">
-                <h3>Fun facts</h3>
+              <div className="counter">
+                <div className="about_title">
+                  <h3>Fun facts</h3>
+                </div>
+                <ul>
+                  <li>
+                    <div className="list_inner">
+                      <h3>90+</h3>
+                      <span>Projects completed</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <h3>2K+</h3>
+                      <span>Hours coding</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <h3>12K+</h3>
+                      <span>Hours engineering</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <h3>6</h3>
+                      <span>Certifications</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <h3>13</h3>
+                      <span>Honors and awards</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <h3>2</h3>
+                      <span>Publications</span>
+                    </div>
+                  </li>
+                </ul>
+                {/* END COUNTER CONTENT */}
               </div>
-              <ul>
-                <li>
-                  <div className="list_inner">
-                    <h3>90+</h3>
-                    <span>Projects completed</span>
-                  </div>
-                </li>
-                <li>
-                  <div className="list_inner">
-                    <h3>2K+</h3>
-                    <span>Hours coding</span>
-                  </div>
-                </li>
-                <li>
-                  <div className="list_inner">
-                    <h3>12K+</h3>
-                    <span>Hours engineering</span>
-                  </div>
-                </li>
-                <li>
-                  <div className="list_inner">
-                    <h3>6</h3>
-                    <span>Certifications</span>
-                  </div>
-                </li>
-                <li>
-                  <div className="list_inner">
-                    <h3>13</h3>
-                    <span>Honors and awards</span>
-                  </div>
-                </li>
-                <li>
-                  <div className="list_inner">
-                    <h3>2</h3>
-                    <span>Publications</span>
-                  </div>
-                </li>
-              </ul>
-              {/* END COUNTER CONTENT */}
-            </div>
-            {/* END COUNTER */}
+              {/* END COUNTER */}
 
-            <div className="partners">
-              <div className="about_title">
-                <h3>Tools</h3>
+              <div className="partners">
+                <div className="about_title">
+                  <h3>Tools</h3>
+                </div>
+                <Brand />
               </div>
-              <Brand />
+              {/* END PARTNER SLIDER */}
             </div>
-            {/* END PARTNER SLIDER */}
           </div>
         </div>
       </Modal>
