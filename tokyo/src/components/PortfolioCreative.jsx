@@ -395,7 +395,7 @@ const Portfolio = () => {
                           >
                             <div>
                               <h5>MemberMe</h5>
-                              <span>Member-management solution featuring FastAPI, React, and RESTful APIs.</span>
+                              <span>Membership-management bare-bones interface featuring FastAPI, React, and RESTful APIs.</span>
                             </div>
                           </ReactTooltip>
                         </div>
