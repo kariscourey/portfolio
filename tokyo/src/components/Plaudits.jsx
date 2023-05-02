@@ -10,7 +10,7 @@ const recommendations = [
     link: 'https://www.linkedin.com/in/bensjostrom/',
     name: 'Ben Sjostrom',
     date: 'Feb 21, 2023',
-    title: 'Exceptional project management skills, debugging abilities, and aptitude for quickly learning new technologies',
+    title: 'Exceptional project management skills, debugging abilities',
     desc: [
       'I had the pleasure of working alongside Karis on an agile software project where her exceptional project management skills, debugging abilities, and aptitude for quickly learning new technologies stood out.',
       'Throughout the project, Karis was proactive, detail-oriented, and demonstrated an impressive ability to navigate complex software development challenges. Her dedication to producing high-quality deliverables and her exceptional communication skills were instrumental in ensuring the success of the project.',
