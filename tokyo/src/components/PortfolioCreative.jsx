@@ -195,12 +195,12 @@ const Portfolio = () => {
                             src="assets/img/portfolio/mem-1.jpg"
                             alt="Key projects"
                             data-tip
-                            data-for="detail4"
+                            data-for="detail5"
                             onClick={toggleModalSeven}
                           />
 
                           <ReactTooltip
-                            id="detail4"
+                            id="detail5"
                             place="bottom"
                             type="light"
                             effect="float"
