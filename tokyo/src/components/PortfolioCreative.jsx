@@ -14,7 +14,8 @@ const Portfolio = () => {
   const [isOpen3, setIsOpen3] = useState(false); // cogo
   const [isOpen4, setIsOpen4] = useState(false); // hot
   const [isOpen5, setIsOpen5] = useState(false); // task
-  const [isOpen6, setIsOpen6] = useState(false);
+  const [isOpen6, setIsOpen6] = useState(false); // auto
+  const [isOpen7, setIsOpen7] = useState(false); // mem
 
   function toggleModalThree() {
     setIsOpen3(!isOpen3);
@@ -27,6 +28,9 @@ const Portfolio = () => {
   }
   function toggleModalSix() {
     setIsOpen6(!isOpen6);
+  }
+  function toggleModalSeven() {
+    setIsOpen7(!isOpen7);
   }
 
   return (
@@ -174,6 +178,37 @@ const Portfolio = () => {
                             <div>
                               <h5>AutoAuto</h5>
                               <span>Automobile-dealership-management solution featuring Django, React, domain-driven design, microservices, and RESTful APIs.</span>
+                            </div>
+                          </ReactTooltip>
+                        </div>
+                      </div>
+                    </li>
+                    {/* END DETAILS */}
+                    <li
+                      data-aos="fade-right"
+                      data-aos-duration="1200"
+                      data-aos-delay="200"
+                    >
+                      <div className="inner">
+                        <div className="entry tokyo_tm_portfolio_animation_wrap">
+                          <img
+                            src="assets/img/portfolio/mem-1.jpg"
+                            alt="Key projects"
+                            data-tip
+                            data-for="detail4"
+                            onClick={toggleModalSeven}
+                          />
+
+                          <ReactTooltip
+                            id="detail4"
+                            place="bottom"
+                            type="light"
+                            effect="float"
+                            className="tooltip-wrapper"
+                          >
+                            <div>
+                              <h5>MemberMe</h5>
+                              <span>Member-management solution featuring FastAPI, React, and RESTful APIs.</span>
                             </div>
                           </ReactTooltip>
                         </div>
@@ -889,8 +924,6 @@ const Portfolio = () => {
       </Modal>
       {/* END MODAL FOR PORTFOLIO DETAILS */}
 
-
-
       {/* START MODAL FOR PORTFOLIO DETAILS */}
       <Modal
         isOpen={isOpen6}
@@ -1176,6 +1209,137 @@ const Portfolio = () => {
                           className="main"
                           style={{
                             backgroundImage: "url(assets/img/portfolio/auto-18.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                </ul>
+              </div>
+            </div>
+          </div>
+          {/* END BOX INNER */}
+        </div>
+        {/* END MODALBOX NEWS */}
+      </Modal>
+      {/* END MODAL FOR PORTFOLIO DETAILS */}
+
+
+      {/* START MODAL FOR PORTFOLIO DETAILS */}
+      <Modal
+        isOpen={isOpen7}
+        onRequestClose={toggleModalSeven}
+        contentLabel="My dialog"
+        className="mymodal"
+        overlayClassName="myoverlay"
+        closeTimeoutMS={500}
+      >
+        <div className="tokyo_tm_modalbox_news portfolio_tm_modalbox">
+          <button className="close-modal" onClick={toggleModalSeven}>
+            <img src="assets/img/svg/cancel.svg" alt="close icon" />
+          </button>
+          {/* END CLOSE ICON */}
+          <div className="box_inner">
+            <div className="description_wrap scrollable">
+              <div className="image">
+                <img src="assets/img/thumbs/4-3.jpg" alt="thumb" />
+                <div
+                  className="main"
+                  style={{
+                    backgroundImage: "url(assets/img/portfolio/mem-1.jpg)",
+                  }}
+                ></div>
+              </div>
+              {/* END IMAGE */}
+              <div className="portfolio_main_title">
+                <h3>MemberMe</h3>
+                <span>Monolithic Web Application</span>
+              </div>
+              {/* END portfolio_main_title */}
+              <div className="main_details">
+                <div className="textbox">
+                  <p>
+                    Membership-management bare-bones interface. Supports global CRUD functionality with members.
+                  </p>
+                  <p>
+                    Features FastAPI, React (stylized with Material UI), and data interactions via RESTful APIs.
+                  </p>
+                  <p>
+                    For individuals and teams seeking to view and manage members.
+                  </p>
+                </div>
+                <div className="detailbox">
+                  <ul>
+                    <li>
+                      <span className="first">Role</span>
+                      <span>Lead Developer</span>
+                    </li>
+                    <li>
+                      <span className="first">Date</span>
+                      <span>2023</span>
+                    </li>
+                    <li>
+                      <span className="first">Source code</span>
+                      <Project name={`kariscourey/memberme`} />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              {/* main_details */}
+
+              <div className="additional_images">
+                <ul className="gallery_zoom">
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/mem-1.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/mem-2.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/mem-3.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/mem-4.jpg)",
                           }}
                         ></div>
                       </div>

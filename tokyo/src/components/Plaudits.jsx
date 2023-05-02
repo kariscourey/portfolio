@@ -7,6 +7,30 @@ Modal.setAppElement("#root");
 
 const recommendations = [
   {
+    link: 'https://www.linkedin.com/in/bensjostrom/',
+    name: 'Ben Sjostrom',
+    date: 'Feb 21, 2023',
+    title: 'Exceptional project management skills, debugging abilities, and aptitude for quickly learning new technologies',
+    desc: [
+      'I had the pleasure of working alongside Karis on an agile software project where her exceptional project management skills, debugging abilities, and aptitude for quickly learning new technologies stood out.',
+      'Throughout the project, Karis was proactive, detail-oriented, and demonstrated an impressive ability to navigate complex software development challenges. Her dedication to producing high-quality deliverables and her exceptional communication skills were instrumental in ensuring the success of the project.',
+      'Karis consistently exceeded expectations, and her approach to problem-solving was both innovative and effective. Her ability to learn new technologies quickly and her tenacity in debugging complex issues was particularly noteworthy.',
+      'I wholeheartedly recommend Karis for any software development role. Her dedication, expertise, and willingness to go the extra mile make her an asset to any team.'
+    ]
+  },
+  {
+    link: 'https://www.linkedin.com/in/mdoughlin/',
+    name: 'Micheline Douglin',
+    date: 'Jan 22, 2023',
+    title: 'Went above and beyond making sure all the pieces came together',
+    desc: [
+      'I had the upmost [sic] pleasure of working with Karis on an application that we created on a group project with 2 other engineers.',
+      'Karis always made sure that we were on track with our progress on the app and went above and beyond making sure all the pieces came together, and what did not she took the initiative to complete.',
+      'Karis is a very thorough individual and worked until her task were completed and went beyond that. Karis was able to demonstrate her understanding of software principles effectively with her code in the app as well as in explanation to others when they needed assistance. One of Karis’ strength is she able to approach problems from different angles knowing that there is not just one solution.',
+      'Outside of the group project, Karis has a very positive aura and was always able to uplift others with jokes and her amazing energy, which was very contagious. Karis would be a great asset to any team or company that she joins.'
+    ]
+  },
+  {
     link: 'https://www.linkedin.com/in/joe-monaghan-201b5713b/',
     name: 'Joe Monaghan',
     date: 'Dec 21, 2022',
