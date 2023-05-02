@@ -371,6 +371,37 @@ const Portfolio = () => {
                       </div>
                     </li>
                     {/* END DETAILS */}
+                    <li
+                      data-aos="fade-right"
+                      data-aos-duration="1200"
+                      data-aos-delay="200"
+                    >
+                      <div className="inner">
+                        <div className="entry tokyo_tm_portfolio_animation_wrap">
+                          <img
+                            src="assets/img/portfolio/mem-1.jpg"
+                            alt="Key projects"
+                            data-tip
+                            data-for="detail4"
+                            onClick={toggleModalSeven}
+                          />
+
+                          <ReactTooltip
+                            id="detail4"
+                            place="bottom"
+                            type="light"
+                            effect="float"
+                            className="tooltip-wrapper"
+                          >
+                            <div>
+                              <h5>MemberMe</h5>
+                              <span>Member-management solution featuring FastAPI, React, and RESTful APIs.</span>
+                            </div>
+                          </ReactTooltip>
+                        </div>
+                      </div>
+                    </li>
+                    {/* END DETAILS */}
                   </ul>
                   {/* END DETAILS GALLERY */}
                 </TabPanel>
