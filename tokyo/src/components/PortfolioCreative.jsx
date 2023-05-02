@@ -602,7 +602,7 @@ const Portfolio = () => {
                   </p>
                   <p>
                     <a href="https://igneous-rocks.gitlab.io/hot-stocks/" target="_blank" rel="noreferrer">Front end</a> deployed with GitLab Pages.{' '}
-                    <a href="https://hot-stocks.onrender.com" target="_blank" rel="noreferrer">Back end</a> deployed with Render.
+                    <a href="https://hot-stocks.onrender.com/docs" target="_blank" rel="noreferrer">Back end</a> deployed with Render.
                   </p>
                   <p>
                     For young individuals who are interested in investing in stocks and growing their portfolio.
@@ -1264,6 +1264,10 @@ const Portfolio = () => {
                   </p>
                   <p>
                     Features FastAPI, React (stylized with Material UI), and data interactions via RESTful APIs.
+                  </p>
+                  <p>
+                    <a href="https://kariscourey.gitlab.io/memberme/" target="_blank" rel="noreferrer">Front end</a> deployed with GitLab Pages.{' '}
+                    <a href="https://memberme-api.onrender.com/docs" target="_blank" rel="noreferrer">Back end</a> deployed with Render.
                   </p>
                   <p>
                     For individuals and teams seeking to view and manage members.
